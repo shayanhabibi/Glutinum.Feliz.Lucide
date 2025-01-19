@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Build", "build\Build.fsproj
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demo", "demo\Demo.fsproj", "{054D7DBC-B3A3-42E7-909A-85817B211496}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Glutinum.Feliz.Lucide.Generator", "Glutinum.Feliz.Lucide.Generator\Glutinum.Feliz.Lucide.Generator.fsproj", "{EC7A06D4-56EA-483F-87AE-3CBECA6C8278}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{054D7DBC-B3A3-42E7-909A-85817B211496}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{054D7DBC-B3A3-42E7-909A-85817B211496}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{054D7DBC-B3A3-42E7-909A-85817B211496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7A06D4-56EA-483F-87AE-3CBECA6C8278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7A06D4-56EA-483F-87AE-3CBECA6C8278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7A06D4-56EA-483F-87AE-3CBECA6C8278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7A06D4-56EA-483F-87AE-3CBECA6C8278}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

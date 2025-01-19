@@ -28,6 +28,7 @@
   <ItemGroup>
     <Compile Include="Lucide.fs" />
     <Compile Include="Exports.fs" />
+    <Compile Include="LabExports.fs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="*.fsproj; **\*.fs; **\*.fsi; **\*.css" PackagePath="fable" />

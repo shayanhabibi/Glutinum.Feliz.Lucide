@@ -1,2507 +1,1558 @@
 namespace Feliz.Lucide
 
+// THIS FILE IS AUTO GENERATED
+
 open Feliz
 open Fable.Core
 open Fable.Core.JsInterop
 
 [<Erase>]
 type Lucide =
-
-    static member inline Accessibility (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Accessibility" "lucide-react", createObj !!properties)
-
-    static member inline Activity (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Activity" "lucide-react", createObj !!properties)
-
-    static member inline AirVent (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AirVent" "lucide-react", createObj !!properties)
-
-    static member inline Airplay (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Airplay" "lucide-react", createObj !!properties)
-
-    static member inline AlarmCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlarmCheck" "lucide-react", createObj !!properties)
-
-    static member inline AlarmClockOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlarmClockOff" "lucide-react", createObj !!properties)
-
-    static member inline AlarmClock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlarmClock" "lucide-react", createObj !!properties)
-
-    static member inline AlarmMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlarmMinus" "lucide-react", createObj !!properties)
-
-    static member inline AlarmPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlarmPlus" "lucide-react", createObj !!properties)
-
-    static member inline Album (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Album" "lucide-react", createObj !!properties)
-
-    static member inline AlertCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlertCircle" "lucide-react", createObj !!properties)
-
-    static member inline AlertOctagon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlertOctagon" "lucide-react", createObj !!properties)
-
-    static member inline AlertTriangle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlertTriangle" "lucide-react", createObj !!properties)
-
-    static member inline AlignCenterHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignCenterHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline AlignCenterVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignCenterVertical" "lucide-react", createObj !!properties)
-
-    static member inline AlignCenter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignCenter" "lucide-react", createObj !!properties)
-
-    static member inline AlignEndHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignEndHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline AlignEndVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignEndVertical" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalDistributeCenter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalDistributeCenter" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalDistributeEnd (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalDistributeEnd" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalDistributeStart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalDistributeStart" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalJustifyCenter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalJustifyCenter" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalJustifyEnd (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalJustifyEnd" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalJustifyStart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalJustifyStart" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalSpaceAround (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalSpaceAround" "lucide-react", createObj !!properties)
-
-    static member inline AlignHorizontalSpaceBetween (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignHorizontalSpaceBetween" "lucide-react", createObj !!properties)
-
-    static member inline AlignJustify (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignJustify" "lucide-react", createObj !!properties)
-
-    static member inline AlignLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignLeft" "lucide-react", createObj !!properties)
-
-    static member inline AlignRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignRight" "lucide-react", createObj !!properties)
-
-    static member inline AlignStartHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignStartHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline AlignStartVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignStartVertical" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalDistributeCenter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalDistributeCenter" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalDistributeEnd (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalDistributeEnd" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalDistributeStart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalDistributeStart" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalJustifyCenter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalJustifyCenter" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalJustifyEnd (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalJustifyEnd" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalJustifyStart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalJustifyStart" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalSpaceAround (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalSpaceAround" "lucide-react", createObj !!properties)
-
-    static member inline AlignVerticalSpaceBetween (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AlignVerticalSpaceBetween" "lucide-react", createObj !!properties)
-
-    static member inline Anchor (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Anchor" "lucide-react", createObj !!properties)
-
-    static member inline Angry (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Angry" "lucide-react", createObj !!properties)
-
-    static member inline Annoyed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Annoyed" "lucide-react", createObj !!properties)
-
-    static member inline Aperture (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Aperture" "lucide-react", createObj !!properties)
-
-    static member inline Apple (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Apple" "lucide-react", createObj !!properties)
-
-    static member inline ArchiveRestore (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArchiveRestore" "lucide-react", createObj !!properties)
-
-    static member inline Archive (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Archive" "lucide-react", createObj !!properties)
-
-    static member inline Armchair (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Armchair" "lucide-react", createObj !!properties)
-
-    static member inline ArrowBigDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowBigDown" "lucide-react", createObj !!properties)
-
-    static member inline ArrowBigLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowBigLeft" "lucide-react", createObj !!properties)
-
-    static member inline ArrowBigRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowBigRight" "lucide-react", createObj !!properties)
-
-    static member inline ArrowBigUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowBigUp" "lucide-react", createObj !!properties)
-
-    static member inline ArrowDownCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowDownCircle" "lucide-react", createObj !!properties)
-
-    static member inline ArrowDownLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowDownLeft" "lucide-react", createObj !!properties)
-
-    static member inline ArrowDownRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowDownRight" "lucide-react", createObj !!properties)
-
-    static member inline ArrowDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowDown" "lucide-react", createObj !!properties)
-
-    static member inline ArrowLeftCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowLeftCircle" "lucide-react", createObj !!properties)
-
-    static member inline ArrowLeftRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowLeftRight" "lucide-react", createObj !!properties)
-
-    static member inline ArrowLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowLeft" "lucide-react", createObj !!properties)
-
-    static member inline ArrowRightCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowRightCircle" "lucide-react", createObj !!properties)
-
-    static member inline ArrowRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowRight" "lucide-react", createObj !!properties)
-
-    static member inline ArrowUpCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowUpCircle" "lucide-react", createObj !!properties)
-
-    static member inline ArrowUpDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowUpDown" "lucide-react", createObj !!properties)
-
-    static member inline ArrowUpLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowUpLeft" "lucide-react", createObj !!properties)
-
-    static member inline ArrowUpRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowUpRight" "lucide-react", createObj !!properties)
-
-    static member inline ArrowUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ArrowUp" "lucide-react", createObj !!properties)
-
-    static member inline Asterisk (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Asterisk" "lucide-react", createObj !!properties)
-
-    static member inline AtSign (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "AtSign" "lucide-react", createObj !!properties)
-
-    static member inline Award (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Award" "lucide-react", createObj !!properties)
-
-    static member inline Axe (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Axe" "lucide-react", createObj !!properties)
-
-    static member inline Axis3d (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Axis3d" "lucide-react", createObj !!properties)
-
-    static member inline Baby (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Baby" "lucide-react", createObj !!properties)
-
-    static member inline Backpack (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Backpack" "lucide-react", createObj !!properties)
-
-    static member inline BaggageClaim (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BaggageClaim" "lucide-react", createObj !!properties)
-
-    static member inline Banana (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Banana" "lucide-react", createObj !!properties)
-
-    static member inline Banknote (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Banknote" "lucide-react", createObj !!properties)
-
-    static member inline BarChart2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BarChart2" "lucide-react", createObj !!properties)
-
-    static member inline BarChart3 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BarChart3" "lucide-react", createObj !!properties)
-
-    static member inline BarChart4 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BarChart4" "lucide-react", createObj !!properties)
-
-    static member inline BarChartHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BarChartHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline BarChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BarChart" "lucide-react", createObj !!properties)
-
-    static member inline Baseline (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Baseline" "lucide-react", createObj !!properties)
-
-    static member inline Bath (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bath" "lucide-react", createObj !!properties)
-
-    static member inline BatteryCharging (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BatteryCharging" "lucide-react", createObj !!properties)
-
-    static member inline BatteryFull (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BatteryFull" "lucide-react", createObj !!properties)
-
-    static member inline BatteryLow (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BatteryLow" "lucide-react", createObj !!properties)
-
-    static member inline BatteryMedium (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BatteryMedium" "lucide-react", createObj !!properties)
-
-    static member inline Battery (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Battery" "lucide-react", createObj !!properties)
-
-    static member inline Beaker (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Beaker" "lucide-react", createObj !!properties)
-
-    static member inline BedDouble (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BedDouble" "lucide-react", createObj !!properties)
-
-    static member inline BedSingle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BedSingle" "lucide-react", createObj !!properties)
-
-    static member inline Bed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bed" "lucide-react", createObj !!properties)
-
-    static member inline Beer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Beer" "lucide-react", createObj !!properties)
-
-    static member inline BellMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BellMinus" "lucide-react", createObj !!properties)
-
-    static member inline BellOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BellOff" "lucide-react", createObj !!properties)
-
-    static member inline BellPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BellPlus" "lucide-react", createObj !!properties)
-
-    static member inline BellRing (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BellRing" "lucide-react", createObj !!properties)
-
-    static member inline Bell (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bell" "lucide-react", createObj !!properties)
-
-    static member inline Bike (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bike" "lucide-react", createObj !!properties)
-
-    static member inline Binary (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Binary" "lucide-react", createObj !!properties)
-
-    static member inline Bitcoin (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bitcoin" "lucide-react", createObj !!properties)
-
-    static member inline BluetoothConnected (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BluetoothConnected" "lucide-react", createObj !!properties)
-
-    static member inline BluetoothOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BluetoothOff" "lucide-react", createObj !!properties)
-
-    static member inline BluetoothSearching (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BluetoothSearching" "lucide-react", createObj !!properties)
-
-    static member inline Bluetooth (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bluetooth" "lucide-react", createObj !!properties)
-
-    static member inline Bold (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bold" "lucide-react", createObj !!properties)
-
-    static member inline Bomb (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bomb" "lucide-react", createObj !!properties)
-
-    static member inline Bone (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bone" "lucide-react", createObj !!properties)
-
-    static member inline BookOpen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BookOpen" "lucide-react", createObj !!properties)
-
-    static member inline Book (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Book" "lucide-react", createObj !!properties)
-
-    static member inline BookmarkMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BookmarkMinus" "lucide-react", createObj !!properties)
-
-    static member inline BookmarkPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BookmarkPlus" "lucide-react", createObj !!properties)
-
-    static member inline Bookmark (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bookmark" "lucide-react", createObj !!properties)
-
-    static member inline Bot (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bot" "lucide-react", createObj !!properties)
-
-    static member inline BoxSelect (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "BoxSelect" "lucide-react", createObj !!properties)
-
-    static member inline Box (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Box" "lucide-react", createObj !!properties)
-
-    static member inline Boxes (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Boxes" "lucide-react", createObj !!properties)
-
-    static member inline Briefcase (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Briefcase" "lucide-react", createObj !!properties)
-
-    static member inline Brush (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Brush" "lucide-react", createObj !!properties)
-
-    static member inline Bug (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bug" "lucide-react", createObj !!properties)
-
-    static member inline Building2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Building2" "lucide-react", createObj !!properties)
-
-    static member inline Building (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Building" "lucide-react", createObj !!properties)
-
-    static member inline Bus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Bus" "lucide-react", createObj !!properties)
-
-    static member inline Cake (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cake" "lucide-react", createObj !!properties)
-
-    static member inline Calculator (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Calculator" "lucide-react", createObj !!properties)
-
-    static member inline CalendarCheck2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarCheck2" "lucide-react", createObj !!properties)
-
-    static member inline CalendarCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarCheck" "lucide-react", createObj !!properties)
-
-    static member inline CalendarClock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarClock" "lucide-react", createObj !!properties)
-
-    static member inline CalendarDays (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarDays" "lucide-react", createObj !!properties)
-
-    static member inline CalendarHeart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarHeart" "lucide-react", createObj !!properties)
-
-    static member inline CalendarMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarMinus" "lucide-react", createObj !!properties)
-
-    static member inline CalendarOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarOff" "lucide-react", createObj !!properties)
-
-    static member inline CalendarPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarPlus" "lucide-react", createObj !!properties)
-
-    static member inline CalendarRange (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarRange" "lucide-react", createObj !!properties)
-
-    static member inline CalendarSearch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarSearch" "lucide-react", createObj !!properties)
-
-    static member inline CalendarX2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarX2" "lucide-react", createObj !!properties)
-
-    static member inline CalendarX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CalendarX" "lucide-react", createObj !!properties)
-
-    static member inline Calendar (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Calendar" "lucide-react", createObj !!properties)
-
-    static member inline CameraOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CameraOff" "lucide-react", createObj !!properties)
-
-    static member inline Camera (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Camera" "lucide-react", createObj !!properties)
-
-    static member inline Car (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Car" "lucide-react", createObj !!properties)
-
-    static member inline Carrot (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Carrot" "lucide-react", createObj !!properties)
-
-    static member inline Cast (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cast" "lucide-react", createObj !!properties)
-
-    static member inline CheckCircle2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CheckCircle2" "lucide-react", createObj !!properties)
-
-    static member inline CheckCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CheckCircle" "lucide-react", createObj !!properties)
-
-    static member inline CheckSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CheckSquare" "lucide-react", createObj !!properties)
-
-    static member inline Check (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Check" "lucide-react", createObj !!properties)
-
-    static member inline ChefHat (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChefHat" "lucide-react", createObj !!properties)
-
-    static member inline Cherry (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cherry" "lucide-react", createObj !!properties)
-
-    static member inline ChevronDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronDown" "lucide-react", createObj !!properties)
-
-    static member inline ChevronFirst (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronFirst" "lucide-react", createObj !!properties)
-
-    static member inline ChevronLast (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronLast" "lucide-react", createObj !!properties)
-
-    static member inline ChevronLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronLeft" "lucide-react", createObj !!properties)
-
-    static member inline ChevronRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronRight" "lucide-react", createObj !!properties)
-
-    static member inline ChevronUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronUp" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsDownUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsDownUp" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsDown" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsLeftRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsLeftRight" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsLeft" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsRightLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsRightLeft" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsRight" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsUpDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsUpDown" "lucide-react", createObj !!properties)
-
-    static member inline ChevronsUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ChevronsUp" "lucide-react", createObj !!properties)
-
-    static member inline Chrome (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Chrome" "lucide-react", createObj !!properties)
-
-    static member inline CigaretteOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CigaretteOff" "lucide-react", createObj !!properties)
-
-    static member inline Cigarette (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cigarette" "lucide-react", createObj !!properties)
-
-    static member inline CircleDot (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CircleDot" "lucide-react", createObj !!properties)
-
-    static member inline CircleEllipsis (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CircleEllipsis" "lucide-react", createObj !!properties)
-
-    static member inline CircleSlashed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CircleSlashed" "lucide-react", createObj !!properties)
-
-    static member inline Circle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Circle" "lucide-react", createObj !!properties)
-
-    static member inline Citrus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Citrus" "lucide-react", createObj !!properties)
-
-    static member inline Clapperboard (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clapperboard" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardCheck" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardCopy (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardCopy" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardEdit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardEdit" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardList (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardList" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardSignature (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardSignature" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardType (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardType" "lucide-react", createObj !!properties)
-
-    static member inline ClipboardX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ClipboardX" "lucide-react", createObj !!properties)
-
-    static member inline Clipboard (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clipboard" "lucide-react", createObj !!properties)
-
-    static member inline Clock1 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock1" "lucide-react", createObj !!properties)
-
-    static member inline Clock10 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock10" "lucide-react", createObj !!properties)
-
-    static member inline Clock11 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock11" "lucide-react", createObj !!properties)
-
-    static member inline Clock12 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock12" "lucide-react", createObj !!properties)
-
-    static member inline Clock2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock2" "lucide-react", createObj !!properties)
-
-    static member inline Clock3 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock3" "lucide-react", createObj !!properties)
-
-    static member inline Clock4 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock4" "lucide-react", createObj !!properties)
-
-    static member inline Clock5 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock5" "lucide-react", createObj !!properties)
-
-    static member inline Clock6 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock6" "lucide-react", createObj !!properties)
-
-    static member inline Clock7 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock7" "lucide-react", createObj !!properties)
-
-    static member inline Clock8 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock8" "lucide-react", createObj !!properties)
-
-    static member inline Clock9 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock9" "lucide-react", createObj !!properties)
-
-    static member inline Clock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clock" "lucide-react", createObj !!properties)
-
-    static member inline CloudCog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudCog" "lucide-react", createObj !!properties)
-
-    static member inline CloudDrizzle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudDrizzle" "lucide-react", createObj !!properties)
-
-    static member inline CloudFog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudFog" "lucide-react", createObj !!properties)
-
-    static member inline CloudHail (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudHail" "lucide-react", createObj !!properties)
-
-    static member inline CloudLightning (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudLightning" "lucide-react", createObj !!properties)
-
-    static member inline CloudMoonRain (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudMoonRain" "lucide-react", createObj !!properties)
-
-    static member inline CloudMoon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudMoon" "lucide-react", createObj !!properties)
-
-    static member inline CloudOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudOff" "lucide-react", createObj !!properties)
-
-    static member inline CloudRainWind (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudRainWind" "lucide-react", createObj !!properties)
-
-    static member inline CloudRain (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudRain" "lucide-react", createObj !!properties)
-
-    static member inline CloudSnow (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudSnow" "lucide-react", createObj !!properties)
-
-    static member inline CloudSunRain (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudSunRain" "lucide-react", createObj !!properties)
-
-    static member inline CloudSun (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CloudSun" "lucide-react", createObj !!properties)
-
-    static member inline Cloud (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cloud" "lucide-react", createObj !!properties)
-
-    static member inline Cloudy (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cloudy" "lucide-react", createObj !!properties)
-
-    static member inline Clover (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Clover" "lucide-react", createObj !!properties)
-
-    static member inline Code2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Code2" "lucide-react", createObj !!properties)
-
-    static member inline Code (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Code" "lucide-react", createObj !!properties)
-
-    static member inline Codepen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Codepen" "lucide-react", createObj !!properties)
-
-    static member inline Codesandbox (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Codesandbox" "lucide-react", createObj !!properties)
-
-    static member inline Coffee (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Coffee" "lucide-react", createObj !!properties)
-
-    static member inline Cog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cog" "lucide-react", createObj !!properties)
-
-    static member inline Coins (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Coins" "lucide-react", createObj !!properties)
-
-    static member inline Columns (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Columns" "lucide-react", createObj !!properties)
-
-    static member inline Command (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Command" "lucide-react", createObj !!properties)
-
-    static member inline Compass (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Compass" "lucide-react", createObj !!properties)
-
-    static member inline Component (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Component" "lucide-react", createObj !!properties)
-
-    static member inline ConciergeBell (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ConciergeBell" "lucide-react", createObj !!properties)
-
-    static member inline Contact (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Contact" "lucide-react", createObj !!properties)
-
-    static member inline Contrast (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Contrast" "lucide-react", createObj !!properties)
-
-    static member inline Cookie (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cookie" "lucide-react", createObj !!properties)
-
-    static member inline Copy (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Copy" "lucide-react", createObj !!properties)
-
-    static member inline Copyleft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Copyleft" "lucide-react", createObj !!properties)
-
-    static member inline Copyright (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Copyright" "lucide-react", createObj !!properties)
-
-    static member inline CornerDownLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerDownLeft" "lucide-react", createObj !!properties)
-
-    static member inline CornerDownRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerDownRight" "lucide-react", createObj !!properties)
-
-    static member inline CornerLeftDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerLeftDown" "lucide-react", createObj !!properties)
-
-    static member inline CornerLeftUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerLeftUp" "lucide-react", createObj !!properties)
-
-    static member inline CornerRightDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerRightDown" "lucide-react", createObj !!properties)
-
-    static member inline CornerRightUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerRightUp" "lucide-react", createObj !!properties)
-
-    static member inline CornerUpLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerUpLeft" "lucide-react", createObj !!properties)
-
-    static member inline CornerUpRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CornerUpRight" "lucide-react", createObj !!properties)
-
-    static member inline Cpu (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cpu" "lucide-react", createObj !!properties)
-
-    static member inline CreditCard (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CreditCard" "lucide-react", createObj !!properties)
-
-    static member inline Croissant (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Croissant" "lucide-react", createObj !!properties)
-
-    static member inline Crop (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Crop" "lucide-react", createObj !!properties)
-
-    static member inline Cross (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Cross" "lucide-react", createObj !!properties)
-
-    static member inline Crosshair (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Crosshair" "lucide-react", createObj !!properties)
-
-    static member inline Crown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Crown" "lucide-react", createObj !!properties)
-
-    static member inline CupSoda (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CupSoda" "lucide-react", createObj !!properties)
-
-    static member inline CurlyBraces (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "CurlyBraces" "lucide-react", createObj !!properties)
-
-    static member inline Currency (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Currency" "lucide-react", createObj !!properties)
-
-    static member inline Database (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Database" "lucide-react", createObj !!properties)
-
-    static member inline Delete (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Delete" "lucide-react", createObj !!properties)
-
-    static member inline Diamond (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Diamond" "lucide-react", createObj !!properties)
-
-    static member inline Dice1 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice1" "lucide-react", createObj !!properties)
-
-    static member inline Dice2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice2" "lucide-react", createObj !!properties)
-
-    static member inline Dice3 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice3" "lucide-react", createObj !!properties)
-
-    static member inline Dice4 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice4" "lucide-react", createObj !!properties)
-
-    static member inline Dice5 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice5" "lucide-react", createObj !!properties)
-
-    static member inline Dice6 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dice6" "lucide-react", createObj !!properties)
-
-    static member inline Dices (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dices" "lucide-react", createObj !!properties)
-
-    static member inline Diff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Diff" "lucide-react", createObj !!properties)
-
-    static member inline Disc (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Disc" "lucide-react", createObj !!properties)
-
-    static member inline DivideCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "DivideCircle" "lucide-react", createObj !!properties)
-
-    static member inline DivideSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "DivideSquare" "lucide-react", createObj !!properties)
-
-    static member inline Divide (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Divide" "lucide-react", createObj !!properties)
-
-    static member inline DollarSign (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "DollarSign" "lucide-react", createObj !!properties)
-
-    static member inline DownloadCloud (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "DownloadCloud" "lucide-react", createObj !!properties)
-
-    static member inline Download (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Download" "lucide-react", createObj !!properties)
-
-    static member inline Dribbble (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Dribbble" "lucide-react", createObj !!properties)
-
-    static member inline Droplet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Droplet" "lucide-react", createObj !!properties)
-
-    static member inline Droplets (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Droplets" "lucide-react", createObj !!properties)
-
-    static member inline Drumstick (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Drumstick" "lucide-react", createObj !!properties)
-
-    static member inline Edit2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Edit2" "lucide-react", createObj !!properties)
-
-    static member inline Edit3 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Edit3" "lucide-react", createObj !!properties)
-
-    static member inline Edit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Edit" "lucide-react", createObj !!properties)
-
-    static member inline EggFried (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "EggFried" "lucide-react", createObj !!properties)
-
-    static member inline Egg (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Egg" "lucide-react", createObj !!properties)
-
-    static member inline EqualNot (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "EqualNot" "lucide-react", createObj !!properties)
-
-    static member inline Equal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Equal" "lucide-react", createObj !!properties)
-
-    static member inline Eraser (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Eraser" "lucide-react", createObj !!properties)
-
-    static member inline Euro (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Euro" "lucide-react", createObj !!properties)
-
-    static member inline Expand (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Expand" "lucide-react", createObj !!properties)
-
-    static member inline ExternalLink (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ExternalLink" "lucide-react", createObj !!properties)
-
-    static member inline EyeOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "EyeOff" "lucide-react", createObj !!properties)
-
-    static member inline Eye (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Eye" "lucide-react", createObj !!properties)
-
-    static member inline Facebook (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Facebook" "lucide-react", createObj !!properties)
-
-    static member inline Factory (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Factory" "lucide-react", createObj !!properties)
-
-    static member inline Fan (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Fan" "lucide-react", createObj !!properties)
-
-    static member inline FastForward (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FastForward" "lucide-react", createObj !!properties)
-
-    static member inline Feather (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Feather" "lucide-react", createObj !!properties)
-
-    static member inline Figma (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Figma" "lucide-react", createObj !!properties)
-
-    static member inline FileArchive (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileArchive" "lucide-react", createObj !!properties)
-
-    static member inline FileAudio2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileAudio2" "lucide-react", createObj !!properties)
-
-    static member inline FileAudio (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileAudio" "lucide-react", createObj !!properties)
-
-    static member inline FileAxis3d (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileAxis3d" "lucide-react", createObj !!properties)
-
-    static member inline FileBadge2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileBadge2" "lucide-react", createObj !!properties)
-
-    static member inline FileBadge (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileBadge" "lucide-react", createObj !!properties)
-
-    static member inline FileBarChart2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileBarChart2" "lucide-react", createObj !!properties)
-
-    static member inline FileBarChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileBarChart" "lucide-react", createObj !!properties)
-
-    static member inline FileBox (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileBox" "lucide-react", createObj !!properties)
-
-    static member inline FileCheck2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileCheck2" "lucide-react", createObj !!properties)
-
-    static member inline FileCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileCheck" "lucide-react", createObj !!properties)
-
-    static member inline FileClock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileClock" "lucide-react", createObj !!properties)
-
-    static member inline FileCode (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileCode" "lucide-react", createObj !!properties)
-
-    static member inline FileCog2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileCog2" "lucide-react", createObj !!properties)
-
-    static member inline FileCog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileCog" "lucide-react", createObj !!properties)
-
-    static member inline FileDiff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileDiff" "lucide-react", createObj !!properties)
-
-    static member inline FileDigit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileDigit" "lucide-react", createObj !!properties)
-
-    static member inline FileDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileDown" "lucide-react", createObj !!properties)
-
-    static member inline FileEdit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileEdit" "lucide-react", createObj !!properties)
-
-    static member inline FileHeart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileHeart" "lucide-react", createObj !!properties)
-
-    static member inline FileImage (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileImage" "lucide-react", createObj !!properties)
-
-    static member inline FileInput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileInput" "lucide-react", createObj !!properties)
-
-    static member inline FileJson2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileJson2" "lucide-react", createObj !!properties)
-
-    static member inline FileJson (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileJson" "lucide-react", createObj !!properties)
-
-    static member inline FileKey2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileKey2" "lucide-react", createObj !!properties)
-
-    static member inline FileKey (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileKey" "lucide-react", createObj !!properties)
-
-    static member inline FileLineChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileLineChart" "lucide-react", createObj !!properties)
-
-    static member inline FileLock2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileLock2" "lucide-react", createObj !!properties)
-
-    static member inline FileLock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileLock" "lucide-react", createObj !!properties)
-
-    static member inline FileMinus2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileMinus2" "lucide-react", createObj !!properties)
-
-    static member inline FileMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileMinus" "lucide-react", createObj !!properties)
-
-    static member inline FileOutput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileOutput" "lucide-react", createObj !!properties)
-
-    static member inline FilePieChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FilePieChart" "lucide-react", createObj !!properties)
-
-    static member inline FilePlus2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FilePlus2" "lucide-react", createObj !!properties)
-
-    static member inline FilePlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FilePlus" "lucide-react", createObj !!properties)
-
-    static member inline FileQuestion (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileQuestion" "lucide-react", createObj !!properties)
-
-    static member inline FileScan (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileScan" "lucide-react", createObj !!properties)
-
-    static member inline FileSearch2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileSearch2" "lucide-react", createObj !!properties)
-
-    static member inline FileSearch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileSearch" "lucide-react", createObj !!properties)
-
-    static member inline FileSignature (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileSignature" "lucide-react", createObj !!properties)
-
-    static member inline FileSpreadsheet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileSpreadsheet" "lucide-react", createObj !!properties)
-
-    static member inline FileSymlink (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileSymlink" "lucide-react", createObj !!properties)
-
-    static member inline FileTerminal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileTerminal" "lucide-react", createObj !!properties)
-
-    static member inline FileText (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileText" "lucide-react", createObj !!properties)
-
-    static member inline FileType2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileType2" "lucide-react", createObj !!properties)
-
-    static member inline FileType (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileType" "lucide-react", createObj !!properties)
-
-    static member inline FileUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileUp" "lucide-react", createObj !!properties)
-
-    static member inline FileVideo2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileVideo2" "lucide-react", createObj !!properties)
-
-    static member inline FileVideo (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileVideo" "lucide-react", createObj !!properties)
-
-    static member inline FileVolume2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileVolume2" "lucide-react", createObj !!properties)
-
-    static member inline FileVolume (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileVolume" "lucide-react", createObj !!properties)
-
-    static member inline FileWarning (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileWarning" "lucide-react", createObj !!properties)
-
-    static member inline FileX2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileX2" "lucide-react", createObj !!properties)
-
-    static member inline FileX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FileX" "lucide-react", createObj !!properties)
-
-    static member inline File (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "File" "lucide-react", createObj !!properties)
-
-    static member inline Files (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Files" "lucide-react", createObj !!properties)
-
-    static member inline Film (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Film" "lucide-react", createObj !!properties)
-
-    static member inline Filter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Filter" "lucide-react", createObj !!properties)
-
-    static member inline Fingerprint (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Fingerprint" "lucide-react", createObj !!properties)
-
-    static member inline FlagOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlagOff" "lucide-react", createObj !!properties)
-
-    static member inline FlagTriangleLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlagTriangleLeft" "lucide-react", createObj !!properties)
-
-    static member inline FlagTriangleRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlagTriangleRight" "lucide-react", createObj !!properties)
-
-    static member inline Flag (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Flag" "lucide-react", createObj !!properties)
-
-    static member inline Flame (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Flame" "lucide-react", createObj !!properties)
-
-    static member inline FlashlightOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlashlightOff" "lucide-react", createObj !!properties)
-
-    static member inline Flashlight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Flashlight" "lucide-react", createObj !!properties)
-
-    static member inline FlaskConical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlaskConical" "lucide-react", createObj !!properties)
-
-    static member inline FlaskRound (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlaskRound" "lucide-react", createObj !!properties)
-
-    static member inline FlipHorizontal2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlipHorizontal2" "lucide-react", createObj !!properties)
-
-    static member inline FlipHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlipHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline FlipVertical2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlipVertical2" "lucide-react", createObj !!properties)
-
-    static member inline FlipVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FlipVertical" "lucide-react", createObj !!properties)
-
-    static member inline Flower2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Flower2" "lucide-react", createObj !!properties)
-
-    static member inline Flower (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Flower" "lucide-react", createObj !!properties)
-
-    static member inline Focus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Focus" "lucide-react", createObj !!properties)
-
-    static member inline FolderArchive (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderArchive" "lucide-react", createObj !!properties)
-
-    static member inline FolderCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderCheck" "lucide-react", createObj !!properties)
-
-    static member inline FolderClock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderClock" "lucide-react", createObj !!properties)
-
-    static member inline FolderClosed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderClosed" "lucide-react", createObj !!properties)
-
-    static member inline FolderCog2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderCog2" "lucide-react", createObj !!properties)
-
-    static member inline FolderCog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderCog" "lucide-react", createObj !!properties)
-
-    static member inline FolderDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderDown" "lucide-react", createObj !!properties)
-
-    static member inline FolderEdit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderEdit" "lucide-react", createObj !!properties)
-
-    static member inline FolderHeart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderHeart" "lucide-react", createObj !!properties)
-
-    static member inline FolderInput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderInput" "lucide-react", createObj !!properties)
-
-    static member inline FolderKey (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderKey" "lucide-react", createObj !!properties)
-
-    static member inline FolderLock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderLock" "lucide-react", createObj !!properties)
-
-    static member inline FolderMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderMinus" "lucide-react", createObj !!properties)
-
-    static member inline FolderOpen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderOpen" "lucide-react", createObj !!properties)
-
-    static member inline FolderOutput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderOutput" "lucide-react", createObj !!properties)
-
-    static member inline FolderPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderPlus" "lucide-react", createObj !!properties)
-
-    static member inline FolderSearch2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderSearch2" "lucide-react", createObj !!properties)
-
-    static member inline FolderSearch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderSearch" "lucide-react", createObj !!properties)
-
-    static member inline FolderSymlink (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderSymlink" "lucide-react", createObj !!properties)
-
-    static member inline FolderTree (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderTree" "lucide-react", createObj !!properties)
-
-    static member inline FolderUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderUp" "lucide-react", createObj !!properties)
-
-    static member inline FolderX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FolderX" "lucide-react", createObj !!properties)
-
-    static member inline Folder (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Folder" "lucide-react", createObj !!properties)
-
-    static member inline Folders (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Folders" "lucide-react", createObj !!properties)
-
-    static member inline FormInput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FormInput" "lucide-react", createObj !!properties)
-
-    static member inline Forward (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Forward" "lucide-react", createObj !!properties)
-
-    static member inline Frame (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Frame" "lucide-react", createObj !!properties)
-
-    static member inline Framer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Framer" "lucide-react", createObj !!properties)
-
-    static member inline Frown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Frown" "lucide-react", createObj !!properties)
-
-    static member inline Fuel (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Fuel" "lucide-react", createObj !!properties)
-
-    static member inline FunctionSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "FunctionSquare" "lucide-react", createObj !!properties)
-
-    static member inline Gamepad2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gamepad2" "lucide-react", createObj !!properties)
-
-    static member inline Gamepad (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gamepad" "lucide-react", createObj !!properties)
-
-    static member inline Gauge (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gauge" "lucide-react", createObj !!properties)
-
-    static member inline Gavel (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gavel" "lucide-react", createObj !!properties)
-
-    static member inline Gem (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gem" "lucide-react", createObj !!properties)
-
-    static member inline Ghost (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Ghost" "lucide-react", createObj !!properties)
-
-    static member inline Gift (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gift" "lucide-react", createObj !!properties)
-
-    static member inline GitBranchPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitBranchPlus" "lucide-react", createObj !!properties)
-
-    static member inline GitBranch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitBranch" "lucide-react", createObj !!properties)
-
-    static member inline GitCommit (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitCommit" "lucide-react", createObj !!properties)
-
-    static member inline GitCompare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitCompare" "lucide-react", createObj !!properties)
-
-    static member inline GitFork (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitFork" "lucide-react", createObj !!properties)
-
-    static member inline GitMerge (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitMerge" "lucide-react", createObj !!properties)
-
-    static member inline GitPullRequestClosed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitPullRequestClosed" "lucide-react", createObj !!properties)
-
-    static member inline GitPullRequestDraft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitPullRequestDraft" "lucide-react", createObj !!properties)
-
-    static member inline GitPullRequest (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GitPullRequest" "lucide-react", createObj !!properties)
-
-    static member inline Github (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Github" "lucide-react", createObj !!properties)
-
-    static member inline Gitlab (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Gitlab" "lucide-react", createObj !!properties)
-
-    static member inline GlassWater (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GlassWater" "lucide-react", createObj !!properties)
-
-    static member inline Glasses (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Glasses" "lucide-react", createObj !!properties)
-
-    static member inline Globe2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Globe2" "lucide-react", createObj !!properties)
-
-    static member inline Globe (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Globe" "lucide-react", createObj !!properties)
-
-    static member inline Grab (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Grab" "lucide-react", createObj !!properties)
-
-    static member inline GraduationCap (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GraduationCap" "lucide-react", createObj !!properties)
-
-    static member inline Grape (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Grape" "lucide-react", createObj !!properties)
-
-    static member inline Grid (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Grid" "lucide-react", createObj !!properties)
-
-    static member inline GripHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GripHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline GripVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "GripVertical" "lucide-react", createObj !!properties)
-
-    static member inline Hammer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Hammer" "lucide-react", createObj !!properties)
-
-    static member inline HandMetal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HandMetal" "lucide-react", createObj !!properties)
-
-    static member inline Hand (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Hand" "lucide-react", createObj !!properties)
-
-    static member inline HardDrive (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HardDrive" "lucide-react", createObj !!properties)
-
-    static member inline HardHat (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HardHat" "lucide-react", createObj !!properties)
-
-    static member inline Hash (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Hash" "lucide-react", createObj !!properties)
-
-    static member inline Haze (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Haze" "lucide-react", createObj !!properties)
-
-    static member inline Headphones (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Headphones" "lucide-react", createObj !!properties)
-
-    static member inline HeartCrack (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HeartCrack" "lucide-react", createObj !!properties)
-
-    static member inline HeartHandshake (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HeartHandshake" "lucide-react", createObj !!properties)
-
-    static member inline HeartOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HeartOff" "lucide-react", createObj !!properties)
-
-    static member inline HeartPulse (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HeartPulse" "lucide-react", createObj !!properties)
-
-    static member inline Heart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Heart" "lucide-react", createObj !!properties)
-
-    static member inline HelpCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "HelpCircle" "lucide-react", createObj !!properties)
-
-    static member inline Hexagon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Hexagon" "lucide-react", createObj !!properties)
-
-    static member inline Highlighter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Highlighter" "lucide-react", createObj !!properties)
-
-    static member inline History (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "History" "lucide-react", createObj !!properties)
-
-    static member inline Home (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Home" "lucide-react", createObj !!properties)
-
-    static member inline Hourglass (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Hourglass" "lucide-react", createObj !!properties)
-
-    static member inline IceCream (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "IceCream" "lucide-react", createObj !!properties)
-
-    static member inline ImageMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ImageMinus" "lucide-react", createObj !!properties)
-
-    static member inline ImageOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ImageOff" "lucide-react", createObj !!properties)
-
-    static member inline ImagePlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ImagePlus" "lucide-react", createObj !!properties)
-
-    static member inline Image (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Image" "lucide-react", createObj !!properties)
-
-    static member inline Import (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Import" "lucide-react", createObj !!properties)
-
-    static member inline Inbox (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Inbox" "lucide-react", createObj !!properties)
-
-    static member inline Indent (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Indent" "lucide-react", createObj !!properties)
-
-    static member inline IndianRupee (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "IndianRupee" "lucide-react", createObj !!properties)
-
-    static member inline Infinity (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Infinity" "lucide-react", createObj !!properties)
-
-    static member inline Info (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Info" "lucide-react", createObj !!properties)
-
-    static member inline Inspect (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Inspect" "lucide-react", createObj !!properties)
-
-    static member inline Instagram (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Instagram" "lucide-react", createObj !!properties)
-
-    static member inline Italic (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Italic" "lucide-react", createObj !!properties)
-
-    static member inline JapaneseYen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "JapaneseYen" "lucide-react", createObj !!properties)
-
-    static member inline Joystick (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Joystick" "lucide-react", createObj !!properties)
-
-    static member inline Key (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Key" "lucide-react", createObj !!properties)
-
-    static member inline Keyboard (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Keyboard" "lucide-react", createObj !!properties)
-
-    static member inline LampCeiling (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LampCeiling" "lucide-react", createObj !!properties)
-
-    static member inline LampDesk (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LampDesk" "lucide-react", createObj !!properties)
-
-    static member inline LampFloor (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LampFloor" "lucide-react", createObj !!properties)
-
-    static member inline LampWallDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LampWallDown" "lucide-react", createObj !!properties)
-
-    static member inline LampWallUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LampWallUp" "lucide-react", createObj !!properties)
-
-    static member inline Lamp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Lamp" "lucide-react", createObj !!properties)
-
-    static member inline Landmark (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Landmark" "lucide-react", createObj !!properties)
-
-    static member inline Languages (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Languages" "lucide-react", createObj !!properties)
-
-    static member inline Laptop2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Laptop2" "lucide-react", createObj !!properties)
-
-    static member inline Laptop (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Laptop" "lucide-react", createObj !!properties)
-
-    static member inline LassoSelect (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LassoSelect" "lucide-react", createObj !!properties)
-
-    static member inline Lasso (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Lasso" "lucide-react", createObj !!properties)
-
-    static member inline Laugh (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Laugh" "lucide-react", createObj !!properties)
-
-    static member inline Layers (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Layers" "lucide-react", createObj !!properties)
-
-    static member inline LayoutDashboard (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LayoutDashboard" "lucide-react", createObj !!properties)
-
-    static member inline LayoutGrid (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LayoutGrid" "lucide-react", createObj !!properties)
-
-    static member inline LayoutList (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LayoutList" "lucide-react", createObj !!properties)
-
-    static member inline LayoutTemplate (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LayoutTemplate" "lucide-react", createObj !!properties)
-
-    static member inline Layout (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Layout" "lucide-react", createObj !!properties)
-
-    static member inline Leaf (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Leaf" "lucide-react", createObj !!properties)
-
-    static member inline Library (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Library" "lucide-react", createObj !!properties)
-
-    static member inline LifeBuoy (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LifeBuoy" "lucide-react", createObj !!properties)
-
-    static member inline LightbulbOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LightbulbOff" "lucide-react", createObj !!properties)
-
-    static member inline Lightbulb (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Lightbulb" "lucide-react", createObj !!properties)
-
-    static member inline LineChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LineChart" "lucide-react", createObj !!properties)
-
-    static member inline Link2Off (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Link2Off" "lucide-react", createObj !!properties)
-
-    static member inline Link2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Link2" "lucide-react", createObj !!properties)
-
-    static member inline Link (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Link" "lucide-react", createObj !!properties)
-
-    static member inline Linkedin (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Linkedin" "lucide-react", createObj !!properties)
-
-    static member inline ListChecks (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListChecks" "lucide-react", createObj !!properties)
-
-    static member inline ListEnd (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListEnd" "lucide-react", createObj !!properties)
-
-    static member inline ListMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListMinus" "lucide-react", createObj !!properties)
-
-    static member inline ListMusic (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListMusic" "lucide-react", createObj !!properties)
-
-    static member inline ListOrdered (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListOrdered" "lucide-react", createObj !!properties)
-
-    static member inline ListPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListPlus" "lucide-react", createObj !!properties)
-
-    static member inline ListStart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListStart" "lucide-react", createObj !!properties)
-
-    static member inline ListVideo (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListVideo" "lucide-react", createObj !!properties)
-
-    static member inline ListX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ListX" "lucide-react", createObj !!properties)
-
-    static member inline List (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "List" "lucide-react", createObj !!properties)
-
-    static member inline Loader2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Loader2" "lucide-react", createObj !!properties)
-
-    static member inline Loader (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Loader" "lucide-react", createObj !!properties)
-
-    static member inline LocateFixed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LocateFixed" "lucide-react", createObj !!properties)
-
-    static member inline LocateOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LocateOff" "lucide-react", createObj !!properties)
-
-    static member inline Locate (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Locate" "lucide-react", createObj !!properties)
-
-    static member inline Lock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Lock" "lucide-react", createObj !!properties)
-
-    static member inline LogIn (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LogIn" "lucide-react", createObj !!properties)
-
-    static member inline LogOut (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "LogOut" "lucide-react", createObj !!properties)
-
-    static member inline Luggage (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Luggage" "lucide-react", createObj !!properties)
-
-    static member inline Magnet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Magnet" "lucide-react", createObj !!properties)
-
-    static member inline MailCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailCheck" "lucide-react", createObj !!properties)
-
-    static member inline MailMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailMinus" "lucide-react", createObj !!properties)
-
-    static member inline MailOpen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailOpen" "lucide-react", createObj !!properties)
-
-    static member inline MailPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailPlus" "lucide-react", createObj !!properties)
-
-    static member inline MailQuestion (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailQuestion" "lucide-react", createObj !!properties)
-
-    static member inline MailSearch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailSearch" "lucide-react", createObj !!properties)
-
-    static member inline MailWarning (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailWarning" "lucide-react", createObj !!properties)
-
-    static member inline MailX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MailX" "lucide-react", createObj !!properties)
-
-    static member inline Mail (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mail" "lucide-react", createObj !!properties)
-
-    static member inline Mails (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mails" "lucide-react", createObj !!properties)
-
-    static member inline MapPinOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MapPinOff" "lucide-react", createObj !!properties)
-
-    static member inline MapPin (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MapPin" "lucide-react", createObj !!properties)
-
-    static member inline Map (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Map" "lucide-react", createObj !!properties)
-
-    static member inline Martini (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Martini" "lucide-react", createObj !!properties)
-
-    static member inline Maximize2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Maximize2" "lucide-react", createObj !!properties)
-
-    static member inline Maximize (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Maximize" "lucide-react", createObj !!properties)
-
-    static member inline Medal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Medal" "lucide-react", createObj !!properties)
-
-    static member inline MegaphoneOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MegaphoneOff" "lucide-react", createObj !!properties)
-
-    static member inline Megaphone (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Megaphone" "lucide-react", createObj !!properties)
-
-    static member inline Meh (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Meh" "lucide-react", createObj !!properties)
-
-    static member inline Menu (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Menu" "lucide-react", createObj !!properties)
-
-    static member inline MessageCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MessageCircle" "lucide-react", createObj !!properties)
-
-    static member inline MessageSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MessageSquare" "lucide-react", createObj !!properties)
-
-    static member inline Mic2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mic2" "lucide-react", createObj !!properties)
-
-    static member inline MicOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MicOff" "lucide-react", createObj !!properties)
-
-    static member inline Mic (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mic" "lucide-react", createObj !!properties)
-
-    static member inline Microscope (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Microscope" "lucide-react", createObj !!properties)
-
-    static member inline Microwave (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Microwave" "lucide-react", createObj !!properties)
-
-    static member inline Milestone (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Milestone" "lucide-react", createObj !!properties)
-
-    static member inline Minimize2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Minimize2" "lucide-react", createObj !!properties)
-
-    static member inline Minimize (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Minimize" "lucide-react", createObj !!properties)
-
-    static member inline MinusCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MinusCircle" "lucide-react", createObj !!properties)
-
-    static member inline MinusSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MinusSquare" "lucide-react", createObj !!properties)
-
-    static member inline Minus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Minus" "lucide-react", createObj !!properties)
-
-    static member inline MonitorOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MonitorOff" "lucide-react", createObj !!properties)
-
-    static member inline MonitorSpeaker (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MonitorSpeaker" "lucide-react", createObj !!properties)
-
-    static member inline Monitor (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Monitor" "lucide-react", createObj !!properties)
-
-    static member inline Moon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Moon" "lucide-react", createObj !!properties)
-
-    static member inline MoreHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoreHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline MoreVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoreVertical" "lucide-react", createObj !!properties)
-
-    static member inline MountainSnow (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MountainSnow" "lucide-react", createObj !!properties)
-
-    static member inline Mountain (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mountain" "lucide-react", createObj !!properties)
-
-    static member inline MousePointer2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MousePointer2" "lucide-react", createObj !!properties)
-
-    static member inline MousePointerClick (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MousePointerClick" "lucide-react", createObj !!properties)
-
-    static member inline MousePointer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MousePointer" "lucide-react", createObj !!properties)
-
-    static member inline Mouse (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Mouse" "lucide-react", createObj !!properties)
-
-    static member inline Move3d (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Move3d" "lucide-react", createObj !!properties)
-
-    static member inline MoveDiagonal2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoveDiagonal2" "lucide-react", createObj !!properties)
-
-    static member inline MoveDiagonal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoveDiagonal" "lucide-react", createObj !!properties)
-
-    static member inline MoveHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoveHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline MoveVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "MoveVertical" "lucide-react", createObj !!properties)
-
-    static member inline Move (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Move" "lucide-react", createObj !!properties)
-
-    static member inline Music2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Music2" "lucide-react", createObj !!properties)
-
-    static member inline Music3 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Music3" "lucide-react", createObj !!properties)
-
-    static member inline Music4 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Music4" "lucide-react", createObj !!properties)
-
-    static member inline Music (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Music" "lucide-react", createObj !!properties)
-
-    static member inline Navigation2Off (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Navigation2Off" "lucide-react", createObj !!properties)
-
-    static member inline Navigation2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Navigation2" "lucide-react", createObj !!properties)
-
-    static member inline NavigationOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "NavigationOff" "lucide-react", createObj !!properties)
-
-    static member inline Navigation (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Navigation" "lucide-react", createObj !!properties)
-
-    static member inline Network (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Network" "lucide-react", createObj !!properties)
-
-    static member inline Newspaper (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Newspaper" "lucide-react", createObj !!properties)
-
-    static member inline Octagon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Octagon" "lucide-react", createObj !!properties)
-
-    static member inline Option (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Option" "lucide-react", createObj !!properties)
-
-    static member inline Outdent (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Outdent" "lucide-react", createObj !!properties)
-
-    static member inline Package2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Package2" "lucide-react", createObj !!properties)
-
-    static member inline PackageCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackageCheck" "lucide-react", createObj !!properties)
-
-    static member inline PackageMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackageMinus" "lucide-react", createObj !!properties)
-
-    static member inline PackageOpen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackageOpen" "lucide-react", createObj !!properties)
-
-    static member inline PackagePlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackagePlus" "lucide-react", createObj !!properties)
-
-    static member inline PackageSearch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackageSearch" "lucide-react", createObj !!properties)
-
-    static member inline PackageX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PackageX" "lucide-react", createObj !!properties)
-
-    static member inline Package (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Package" "lucide-react", createObj !!properties)
-
-    static member inline PaintBucket (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PaintBucket" "lucide-react", createObj !!properties)
-
-    static member inline Paintbrush2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Paintbrush2" "lucide-react", createObj !!properties)
-
-    static member inline Paintbrush (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Paintbrush" "lucide-react", createObj !!properties)
-
-    static member inline Palette (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Palette" "lucide-react", createObj !!properties)
-
-    static member inline Palmtree (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Palmtree" "lucide-react", createObj !!properties)
-
-    static member inline Paperclip (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Paperclip" "lucide-react", createObj !!properties)
-
-    static member inline PartyPopper (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PartyPopper" "lucide-react", createObj !!properties)
-
-    static member inline PauseCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PauseCircle" "lucide-react", createObj !!properties)
-
-    static member inline PauseOctagon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PauseOctagon" "lucide-react", createObj !!properties)
-
-    static member inline Pause (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pause" "lucide-react", createObj !!properties)
-
-    static member inline PenTool (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PenTool" "lucide-react", createObj !!properties)
-
-    static member inline Pencil (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pencil" "lucide-react", createObj !!properties)
-
-    static member inline Percent (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Percent" "lucide-react", createObj !!properties)
-
-    static member inline PersonStanding (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PersonStanding" "lucide-react", createObj !!properties)
-
-    static member inline PhoneCall (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneCall" "lucide-react", createObj !!properties)
-
-    static member inline PhoneForwarded (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneForwarded" "lucide-react", createObj !!properties)
-
-    static member inline PhoneIncoming (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneIncoming" "lucide-react", createObj !!properties)
-
-    static member inline PhoneMissed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneMissed" "lucide-react", createObj !!properties)
-
-    static member inline PhoneOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneOff" "lucide-react", createObj !!properties)
-
-    static member inline PhoneOutgoing (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PhoneOutgoing" "lucide-react", createObj !!properties)
-
-    static member inline Phone (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Phone" "lucide-react", createObj !!properties)
-
-    static member inline PieChart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PieChart" "lucide-react", createObj !!properties)
-
-    static member inline PiggyBank (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PiggyBank" "lucide-react", createObj !!properties)
-
-    static member inline PinOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PinOff" "lucide-react", createObj !!properties)
-
-    static member inline Pin (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pin" "lucide-react", createObj !!properties)
-
-    static member inline Pipette (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pipette" "lucide-react", createObj !!properties)
-
-    static member inline Pizza (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pizza" "lucide-react", createObj !!properties)
-
-    static member inline Plane (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Plane" "lucide-react", createObj !!properties)
-
-    static member inline PlayCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PlayCircle" "lucide-react", createObj !!properties)
-
-    static member inline Play (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Play" "lucide-react", createObj !!properties)
-
-    static member inline Plug2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Plug2" "lucide-react", createObj !!properties)
-
-    static member inline PlugZap (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PlugZap" "lucide-react", createObj !!properties)
-
-    static member inline Plug (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Plug" "lucide-react", createObj !!properties)
-
-    static member inline PlusCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PlusCircle" "lucide-react", createObj !!properties)
-
-    static member inline PlusSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PlusSquare" "lucide-react", createObj !!properties)
-
-    static member inline Plus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Plus" "lucide-react", createObj !!properties)
-
-    static member inline Pocket (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pocket" "lucide-react", createObj !!properties)
-
-    static member inline Podcast (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Podcast" "lucide-react", createObj !!properties)
-
-    static member inline Pointer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Pointer" "lucide-react", createObj !!properties)
-
-    static member inline PoundSterling (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PoundSterling" "lucide-react", createObj !!properties)
-
-    static member inline PowerOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "PowerOff" "lucide-react", createObj !!properties)
-
-    static member inline Power (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Power" "lucide-react", createObj !!properties)
-
-    static member inline Printer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Printer" "lucide-react", createObj !!properties)
-
-    static member inline Puzzle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Puzzle" "lucide-react", createObj !!properties)
-
-    static member inline QrCode (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "QrCode" "lucide-react", createObj !!properties)
-
-    static member inline Quote (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Quote" "lucide-react", createObj !!properties)
-
-    static member inline RadioReceiver (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RadioReceiver" "lucide-react", createObj !!properties)
-
-    static member inline Radio (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Radio" "lucide-react", createObj !!properties)
-
-    static member inline RectangleHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RectangleHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline RectangleVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RectangleVertical" "lucide-react", createObj !!properties)
-
-    static member inline Recycle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Recycle" "lucide-react", createObj !!properties)
-
-    static member inline Redo2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Redo2" "lucide-react", createObj !!properties)
-
-    static member inline Redo (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Redo" "lucide-react", createObj !!properties)
-
-    static member inline RefreshCcw (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RefreshCcw" "lucide-react", createObj !!properties)
-
-    static member inline RefreshCw (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RefreshCw" "lucide-react", createObj !!properties)
-
-    static member inline Refrigerator (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Refrigerator" "lucide-react", createObj !!properties)
-
-    static member inline Regex (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Regex" "lucide-react", createObj !!properties)
-
-    static member inline Repeat1 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Repeat1" "lucide-react", createObj !!properties)
-
-    static member inline Repeat (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Repeat" "lucide-react", createObj !!properties)
-
-    static member inline ReplyAll (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ReplyAll" "lucide-react", createObj !!properties)
-
-    static member inline Reply (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Reply" "lucide-react", createObj !!properties)
-
-    static member inline Rewind (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Rewind" "lucide-react", createObj !!properties)
-
-    static member inline Rocket (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Rocket" "lucide-react", createObj !!properties)
-
-    static member inline RockingChair (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RockingChair" "lucide-react", createObj !!properties)
-
-    static member inline Rotate3d (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Rotate3d" "lucide-react", createObj !!properties)
-
-    static member inline RotateCcw (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RotateCcw" "lucide-react", createObj !!properties)
-
-    static member inline RotateCw (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RotateCw" "lucide-react", createObj !!properties)
-
-    static member inline Rss (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Rss" "lucide-react", createObj !!properties)
-
-    static member inline Ruler (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Ruler" "lucide-react", createObj !!properties)
-
-    static member inline RussianRuble (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "RussianRuble" "lucide-react", createObj !!properties)
-
-    static member inline Sailboat (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sailboat" "lucide-react", createObj !!properties)
-
-    static member inline Save (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Save" "lucide-react", createObj !!properties)
-
-    static member inline Scale3d (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scale3d" "lucide-react", createObj !!properties)
-
-    static member inline Scale (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scale" "lucide-react", createObj !!properties)
-
-    static member inline Scaling (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scaling" "lucide-react", createObj !!properties)
-
-    static member inline ScanFace (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ScanFace" "lucide-react", createObj !!properties)
-
-    static member inline ScanLine (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ScanLine" "lucide-react", createObj !!properties)
-
-    static member inline Scan (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scan" "lucide-react", createObj !!properties)
-
-    static member inline Scissors (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scissors" "lucide-react", createObj !!properties)
-
-    static member inline ScreenShareOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ScreenShareOff" "lucide-react", createObj !!properties)
-
-    static member inline ScreenShare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ScreenShare" "lucide-react", createObj !!properties)
-
-    static member inline Scroll (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Scroll" "lucide-react", createObj !!properties)
-
-    static member inline Search (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Search" "lucide-react", createObj !!properties)
-
-    static member inline Send (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Send" "lucide-react", createObj !!properties)
-
-    static member inline SeparatorHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SeparatorHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline SeparatorVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SeparatorVertical" "lucide-react", createObj !!properties)
-
-    static member inline ServerCog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ServerCog" "lucide-react", createObj !!properties)
-
-    static member inline ServerCrash (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ServerCrash" "lucide-react", createObj !!properties)
-
-    static member inline ServerOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ServerOff" "lucide-react", createObj !!properties)
-
-    static member inline Server (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Server" "lucide-react", createObj !!properties)
-
-    static member inline Settings2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Settings2" "lucide-react", createObj !!properties)
-
-    static member inline Settings (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Settings" "lucide-react", createObj !!properties)
-
-    static member inline Share2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Share2" "lucide-react", createObj !!properties)
-
-    static member inline Share (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Share" "lucide-react", createObj !!properties)
-
-    static member inline Sheet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sheet" "lucide-react", createObj !!properties)
-
-    static member inline ShieldAlert (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShieldAlert" "lucide-react", createObj !!properties)
-
-    static member inline ShieldCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShieldCheck" "lucide-react", createObj !!properties)
-
-    static member inline ShieldClose (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShieldClose" "lucide-react", createObj !!properties)
-
-    static member inline ShieldOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShieldOff" "lucide-react", createObj !!properties)
-
-    static member inline Shield (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shield" "lucide-react", createObj !!properties)
-
-    static member inline Shirt (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shirt" "lucide-react", createObj !!properties)
-
-    static member inline ShoppingBag (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShoppingBag" "lucide-react", createObj !!properties)
-
-    static member inline ShoppingCart (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShoppingCart" "lucide-react", createObj !!properties)
-
-    static member inline Shovel (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shovel" "lucide-react", createObj !!properties)
-
-    static member inline ShowerHead (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ShowerHead" "lucide-react", createObj !!properties)
-
-    static member inline Shrink (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shrink" "lucide-react", createObj !!properties)
-
-    static member inline Shrub (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shrub" "lucide-react", createObj !!properties)
-
-    static member inline Shuffle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Shuffle" "lucide-react", createObj !!properties)
-
-    static member inline SidebarClose (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SidebarClose" "lucide-react", createObj !!properties)
-
-    static member inline SidebarOpen (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SidebarOpen" "lucide-react", createObj !!properties)
-
-    static member inline Sidebar (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sidebar" "lucide-react", createObj !!properties)
-
-    static member inline Sigma (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sigma" "lucide-react", createObj !!properties)
-
-    static member inline SignalHigh (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SignalHigh" "lucide-react", createObj !!properties)
-
-    static member inline SignalLow (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SignalLow" "lucide-react", createObj !!properties)
-
-    static member inline SignalMedium (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SignalMedium" "lucide-react", createObj !!properties)
-
-    static member inline SignalZero (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SignalZero" "lucide-react", createObj !!properties)
-
-    static member inline Signal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Signal" "lucide-react", createObj !!properties)
-
-    static member inline Siren (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Siren" "lucide-react", createObj !!properties)
-
-    static member inline SkipBack (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SkipBack" "lucide-react", createObj !!properties)
-
-    static member inline SkipForward (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SkipForward" "lucide-react", createObj !!properties)
-
-    static member inline Skull (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Skull" "lucide-react", createObj !!properties)
-
-    static member inline Slack (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Slack" "lucide-react", createObj !!properties)
-
-    static member inline Slash (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Slash" "lucide-react", createObj !!properties)
-
-    static member inline Slice (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Slice" "lucide-react", createObj !!properties)
-
-    static member inline SlidersHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SlidersHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline Sliders (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sliders" "lucide-react", createObj !!properties)
-
-    static member inline SmartphoneCharging (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SmartphoneCharging" "lucide-react", createObj !!properties)
-
-    static member inline Smartphone (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Smartphone" "lucide-react", createObj !!properties)
-
-    static member inline SmilePlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SmilePlus" "lucide-react", createObj !!properties)
-
-    static member inline Smile (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Smile" "lucide-react", createObj !!properties)
-
-    static member inline Snowflake (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Snowflake" "lucide-react", createObj !!properties)
-
-    static member inline Sofa (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sofa" "lucide-react", createObj !!properties)
-
-    static member inline SortAsc (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SortAsc" "lucide-react", createObj !!properties)
-
-    static member inline SortDesc (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SortDesc" "lucide-react", createObj !!properties)
-
-    static member inline Speaker (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Speaker" "lucide-react", createObj !!properties)
-
-    static member inline Sprout (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sprout" "lucide-react", createObj !!properties)
-
-    static member inline Square (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Square" "lucide-react", createObj !!properties)
-
-    static member inline StarHalf (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StarHalf" "lucide-react", createObj !!properties)
-
-    static member inline StarOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StarOff" "lucide-react", createObj !!properties)
-
-    static member inline Star (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Star" "lucide-react", createObj !!properties)
-
-    static member inline Stethoscope (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Stethoscope" "lucide-react", createObj !!properties)
-
-    static member inline Sticker (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sticker" "lucide-react", createObj !!properties)
-
-    static member inline StickyNote (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StickyNote" "lucide-react", createObj !!properties)
-
-    static member inline StopCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StopCircle" "lucide-react", createObj !!properties)
-
-    static member inline StretchHorizontal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StretchHorizontal" "lucide-react", createObj !!properties)
-
-    static member inline StretchVertical (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "StretchVertical" "lucide-react", createObj !!properties)
-
-    static member inline Strikethrough (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Strikethrough" "lucide-react", createObj !!properties)
-
-    static member inline Subscript (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Subscript" "lucide-react", createObj !!properties)
-
-    static member inline SunDim (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SunDim" "lucide-react", createObj !!properties)
-
-    static member inline SunMedium (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SunMedium" "lucide-react", createObj !!properties)
-
-    static member inline SunMoon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SunMoon" "lucide-react", createObj !!properties)
-
-    static member inline SunSnow (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SunSnow" "lucide-react", createObj !!properties)
-
-    static member inline Sun (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sun" "lucide-react", createObj !!properties)
-
-    static member inline Sunrise (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sunrise" "lucide-react", createObj !!properties)
-
-    static member inline Sunset (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sunset" "lucide-react", createObj !!properties)
-
-    static member inline Superscript (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Superscript" "lucide-react", createObj !!properties)
-
-    static member inline SwissFranc (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SwissFranc" "lucide-react", createObj !!properties)
-
-    static member inline SwitchCamera (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "SwitchCamera" "lucide-react", createObj !!properties)
-
-    static member inline Sword (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Sword" "lucide-react", createObj !!properties)
-
-    static member inline Swords (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Swords" "lucide-react", createObj !!properties)
-
-    static member inline Syringe (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Syringe" "lucide-react", createObj !!properties)
-
-    static member inline Table2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Table2" "lucide-react", createObj !!properties)
-
-    static member inline Table (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Table" "lucide-react", createObj !!properties)
-
-    static member inline Tablet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tablet" "lucide-react", createObj !!properties)
-
-    static member inline Tag (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tag" "lucide-react", createObj !!properties)
-
-    static member inline Tags (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tags" "lucide-react", createObj !!properties)
-
-    static member inline Target (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Target" "lucide-react", createObj !!properties)
-
-    static member inline Tent (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tent" "lucide-react", createObj !!properties)
-
-    static member inline TerminalSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TerminalSquare" "lucide-react", createObj !!properties)
-
-    static member inline Terminal (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Terminal" "lucide-react", createObj !!properties)
-
-    static member inline TextCursorInput (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TextCursorInput" "lucide-react", createObj !!properties)
-
-    static member inline TextCursor (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TextCursor" "lucide-react", createObj !!properties)
-
-    static member inline ThermometerSnowflake (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ThermometerSnowflake" "lucide-react", createObj !!properties)
-
-    static member inline ThermometerSun (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ThermometerSun" "lucide-react", createObj !!properties)
-
-    static member inline Thermometer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Thermometer" "lucide-react", createObj !!properties)
-
-    static member inline ThumbsDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ThumbsDown" "lucide-react", createObj !!properties)
-
-    static member inline ThumbsUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ThumbsUp" "lucide-react", createObj !!properties)
-
-    static member inline Ticket (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Ticket" "lucide-react", createObj !!properties)
-
-    static member inline TimerOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TimerOff" "lucide-react", createObj !!properties)
-
-    static member inline TimerReset (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TimerReset" "lucide-react", createObj !!properties)
-
-    static member inline Timer (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Timer" "lucide-react", createObj !!properties)
-
-    static member inline ToggleLeft (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ToggleLeft" "lucide-react", createObj !!properties)
-
-    static member inline ToggleRight (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ToggleRight" "lucide-react", createObj !!properties)
-
-    static member inline Tornado (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tornado" "lucide-react", createObj !!properties)
-
-    static member inline ToyBrick (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ToyBrick" "lucide-react", createObj !!properties)
-
-    static member inline Train (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Train" "lucide-react", createObj !!properties)
-
-    static member inline Trash2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Trash2" "lucide-react", createObj !!properties)
-
-    static member inline Trash (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Trash" "lucide-react", createObj !!properties)
-
-    static member inline TreeDeciduous (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TreeDeciduous" "lucide-react", createObj !!properties)
-
-    static member inline TreePine (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TreePine" "lucide-react", createObj !!properties)
-
-    static member inline Trees (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Trees" "lucide-react", createObj !!properties)
-
-    static member inline Trello (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Trello" "lucide-react", createObj !!properties)
-
-    static member inline TrendingDown (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TrendingDown" "lucide-react", createObj !!properties)
-
-    static member inline TrendingUp (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "TrendingUp" "lucide-react", createObj !!properties)
-
-    static member inline Triangle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Triangle" "lucide-react", createObj !!properties)
-
-    static member inline Trophy (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Trophy" "lucide-react", createObj !!properties)
-
-    static member inline Truck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Truck" "lucide-react", createObj !!properties)
-
-    static member inline Tv2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tv2" "lucide-react", createObj !!properties)
-
-    static member inline Tv (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Tv" "lucide-react", createObj !!properties)
-
-    static member inline Twitch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Twitch" "lucide-react", createObj !!properties)
-
-    static member inline Twitter (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Twitter" "lucide-react", createObj !!properties)
-
-    static member inline Type (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Type" "lucide-react", createObj !!properties)
-
-    static member inline Umbrella (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Umbrella" "lucide-react", createObj !!properties)
-
-    static member inline Underline (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Underline" "lucide-react", createObj !!properties)
-
-    static member inline Undo2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Undo2" "lucide-react", createObj !!properties)
-
-    static member inline Undo (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Undo" "lucide-react", createObj !!properties)
-
-    static member inline Unlink2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Unlink2" "lucide-react", createObj !!properties)
-
-    static member inline Unlink (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Unlink" "lucide-react", createObj !!properties)
-
-    static member inline Unlock (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Unlock" "lucide-react", createObj !!properties)
-
-    static member inline UploadCloud (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UploadCloud" "lucide-react", createObj !!properties)
-
-    static member inline Upload (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Upload" "lucide-react", createObj !!properties)
-
-    static member inline Usb (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Usb" "lucide-react", createObj !!properties)
-
-    static member inline UserCheck (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UserCheck" "lucide-react", createObj !!properties)
-
-    static member inline UserCog (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UserCog" "lucide-react", createObj !!properties)
-
-    static member inline UserMinus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UserMinus" "lucide-react", createObj !!properties)
-
-    static member inline UserPlus (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UserPlus" "lucide-react", createObj !!properties)
-
-    static member inline UserX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UserX" "lucide-react", createObj !!properties)
-
-    static member inline User (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "User" "lucide-react", createObj !!properties)
-
-    static member inline Users (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Users" "lucide-react", createObj !!properties)
-
-    static member inline UtensilsCrossed (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "UtensilsCrossed" "lucide-react", createObj !!properties)
-
-    static member inline Utensils (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Utensils" "lucide-react", createObj !!properties)
-
-    static member inline VenetianMask (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "VenetianMask" "lucide-react", createObj !!properties)
-
-    static member inline Verified (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Verified" "lucide-react", createObj !!properties)
-
-    static member inline VibrateOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "VibrateOff" "lucide-react", createObj !!properties)
-
-    static member inline Vibrate (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Vibrate" "lucide-react", createObj !!properties)
-
-    static member inline VideoOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "VideoOff" "lucide-react", createObj !!properties)
-
-    static member inline Video (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Video" "lucide-react", createObj !!properties)
-
-    static member inline View (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "View" "lucide-react", createObj !!properties)
-
-    static member inline Voicemail (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Voicemail" "lucide-react", createObj !!properties)
-
-    static member inline Volume1 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Volume1" "lucide-react", createObj !!properties)
-
-    static member inline Volume2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Volume2" "lucide-react", createObj !!properties)
-
-    static member inline VolumeX (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "VolumeX" "lucide-react", createObj !!properties)
-
-    static member inline Volume (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Volume" "lucide-react", createObj !!properties)
-
-    static member inline Wallet (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wallet" "lucide-react", createObj !!properties)
-
-    static member inline Wand2 (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wand2" "lucide-react", createObj !!properties)
-
-    static member inline Wand (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wand" "lucide-react", createObj !!properties)
-
-    static member inline Watch (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Watch" "lucide-react", createObj !!properties)
-
-    static member inline Waves (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Waves" "lucide-react", createObj !!properties)
-
-    static member inline Webcam (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Webcam" "lucide-react", createObj !!properties)
-
-    static member inline Webhook (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Webhook" "lucide-react", createObj !!properties)
-
-    static member inline WifiOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "WifiOff" "lucide-react", createObj !!properties)
-
-    static member inline Wifi (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wifi" "lucide-react", createObj !!properties)
-
-    static member inline Wind (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wind" "lucide-react", createObj !!properties)
-
-    static member inline Wine (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wine" "lucide-react", createObj !!properties)
-
-    static member inline WrapText (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "WrapText" "lucide-react", createObj !!properties)
-
-    static member inline Wrench (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Wrench" "lucide-react", createObj !!properties)
-
-    static member inline XCircle (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "XCircle" "lucide-react", createObj !!properties)
-
-    static member inline XOctagon (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "XOctagon" "lucide-react", createObj !!properties)
-
-    static member inline XSquare (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "XSquare" "lucide-react", createObj !!properties)
-
-    static member inline X (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "X" "lucide-react", createObj !!properties)
-
-    static member inline Youtube (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Youtube" "lucide-react", createObj !!properties)
-
-    static member inline ZapOff (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ZapOff" "lucide-react", createObj !!properties)
-
-    static member inline Zap (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "Zap" "lucide-react", createObj !!properties)
-
-    static member inline ZoomIn (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ZoomIn" "lucide-react", createObj !!properties)
-
-    static member inline ZoomOut (properties : #ISvgAttribute list) =
-        Interop.reactApi.createElement(import "ZoomOut" "lucide-react", createObj !!properties)
+    static member inline AArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AArrowDown" "lucide-react", createObj !!props)
+    static member inline AArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AArrowUp" "lucide-react", createObj !!props)
+    static member inline ALargeSmall ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ALargeSmall" "lucide-react", createObj !!props)
+    static member inline Accessibility ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Accessibility" "lucide-react", createObj !!props)
+    static member inline Activity ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Activity" "lucide-react", createObj !!props)
+    static member inline AirVent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AirVent" "lucide-react", createObj !!props)
+    static member inline Airplay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Airplay" "lucide-react", createObj !!props)
+    static member inline AlarmClockCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmClockCheck" "lucide-react", createObj !!props)
+    static member inline AlarmClockMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmClockMinus" "lucide-react", createObj !!props)
+    static member inline AlarmClockOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmClockOff" "lucide-react", createObj !!props)
+    static member inline AlarmClockPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmClockPlus" "lucide-react", createObj !!props)
+    static member inline AlarmClock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmClock" "lucide-react", createObj !!props)
+    static member inline AlarmSmoke ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlarmSmoke" "lucide-react", createObj !!props)
+    static member inline Album ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Album" "lucide-react", createObj !!props)
+    static member inline AlignCenterHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignCenterHorizontal" "lucide-react", createObj !!props)
+    static member inline AlignCenterVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignCenterVertical" "lucide-react", createObj !!props)
+    static member inline AlignCenter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignCenter" "lucide-react", createObj !!props)
+    static member inline AlignEndHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignEndHorizontal" "lucide-react", createObj !!props)
+    static member inline AlignEndVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignEndVertical" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalDistributeCenter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalDistributeCenter" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalDistributeEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalDistributeEnd" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalDistributeStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalDistributeStart" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalJustifyCenter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalJustifyCenter" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalJustifyEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalJustifyEnd" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalJustifyStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalJustifyStart" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalSpaceAround ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalSpaceAround" "lucide-react", createObj !!props)
+    static member inline AlignHorizontalSpaceBetween ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignHorizontalSpaceBetween" "lucide-react", createObj !!props)
+    static member inline AlignJustify ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignJustify" "lucide-react", createObj !!props)
+    static member inline AlignLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignLeft" "lucide-react", createObj !!props)
+    static member inline AlignRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignRight" "lucide-react", createObj !!props)
+    static member inline AlignStartHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignStartHorizontal" "lucide-react", createObj !!props)
+    static member inline AlignStartVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignStartVertical" "lucide-react", createObj !!props)
+    static member inline AlignVerticalDistributeCenter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalDistributeCenter" "lucide-react", createObj !!props)
+    static member inline AlignVerticalDistributeEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalDistributeEnd" "lucide-react", createObj !!props)
+    static member inline AlignVerticalDistributeStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalDistributeStart" "lucide-react", createObj !!props)
+    static member inline AlignVerticalJustifyCenter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalJustifyCenter" "lucide-react", createObj !!props)
+    static member inline AlignVerticalJustifyEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalJustifyEnd" "lucide-react", createObj !!props)
+    static member inline AlignVerticalJustifyStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalJustifyStart" "lucide-react", createObj !!props)
+    static member inline AlignVerticalSpaceAround ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalSpaceAround" "lucide-react", createObj !!props)
+    static member inline AlignVerticalSpaceBetween ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AlignVerticalSpaceBetween" "lucide-react", createObj !!props)
+    static member inline Ambulance ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ambulance" "lucide-react", createObj !!props)
+    static member inline Ampersand ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ampersand" "lucide-react", createObj !!props)
+    static member inline Ampersands ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ampersands" "lucide-react", createObj !!props)
+    static member inline Amphora ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Amphora" "lucide-react", createObj !!props)
+    static member inline Anchor ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Anchor" "lucide-react", createObj !!props)
+    static member inline Angry ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Angry" "lucide-react", createObj !!props)
+    static member inline Annoyed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Annoyed" "lucide-react", createObj !!props)
+    static member inline Antenna ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Antenna" "lucide-react", createObj !!props)
+    static member inline Anvil ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Anvil" "lucide-react", createObj !!props)
+    static member inline Aperture ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Aperture" "lucide-react", createObj !!props)
+    static member inline AppWindowMac ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AppWindowMac" "lucide-react", createObj !!props)
+    static member inline AppWindow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AppWindow" "lucide-react", createObj !!props)
+    static member inline Apple ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Apple" "lucide-react", createObj !!props)
+    static member inline ArchiveRestore ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArchiveRestore" "lucide-react", createObj !!props)
+    static member inline ArchiveX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArchiveX" "lucide-react", createObj !!props)
+    static member inline Archive ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Archive" "lucide-react", createObj !!props)
+    static member inline Armchair ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Armchair" "lucide-react", createObj !!props)
+    static member inline ArrowBigDownDash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigDownDash" "lucide-react", createObj !!props)
+    static member inline ArrowBigDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigDown" "lucide-react", createObj !!props)
+    static member inline ArrowBigLeftDash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigLeftDash" "lucide-react", createObj !!props)
+    static member inline ArrowBigLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigLeft" "lucide-react", createObj !!props)
+    static member inline ArrowBigRightDash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigRightDash" "lucide-react", createObj !!props)
+    static member inline ArrowBigRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigRight" "lucide-react", createObj !!props)
+    static member inline ArrowBigUpDash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigUpDash" "lucide-react", createObj !!props)
+    static member inline ArrowBigUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowBigUp" "lucide-react", createObj !!props)
+    static member inline ArrowDown01 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDown01" "lucide-react", createObj !!props)
+    static member inline ArrowDown10 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDown10" "lucide-react", createObj !!props)
+    static member inline ArrowDownAZ ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownAZ" "lucide-react", createObj !!props)
+    static member inline ArrowDownFromLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownFromLine" "lucide-react", createObj !!props)
+    static member inline ArrowDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownLeft" "lucide-react", createObj !!props)
+    static member inline ArrowDownNarrowWide ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownNarrowWide" "lucide-react", createObj !!props)
+    static member inline ArrowDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownRight" "lucide-react", createObj !!props)
+    static member inline ArrowDownToDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownToDot" "lucide-react", createObj !!props)
+    static member inline ArrowDownToLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownToLine" "lucide-react", createObj !!props)
+    static member inline ArrowDownUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownUp" "lucide-react", createObj !!props)
+    static member inline ArrowDownWideNarrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownWideNarrow" "lucide-react", createObj !!props)
+    static member inline ArrowDownZA ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDownZA" "lucide-react", createObj !!props)
+    static member inline ArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowDown" "lucide-react", createObj !!props)
+    static member inline ArrowLeftFromLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowLeftFromLine" "lucide-react", createObj !!props)
+    static member inline ArrowLeftRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowLeftRight" "lucide-react", createObj !!props)
+    static member inline ArrowLeftToLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowLeftToLine" "lucide-react", createObj !!props)
+    static member inline ArrowLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowLeft" "lucide-react", createObj !!props)
+    static member inline ArrowRightFromLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowRightFromLine" "lucide-react", createObj !!props)
+    static member inline ArrowRightLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowRightLeft" "lucide-react", createObj !!props)
+    static member inline ArrowRightToLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowRightToLine" "lucide-react", createObj !!props)
+    static member inline ArrowRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowRight" "lucide-react", createObj !!props)
+    static member inline ArrowUp01 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUp01" "lucide-react", createObj !!props)
+    static member inline ArrowUp10 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUp10" "lucide-react", createObj !!props)
+    static member inline ArrowUpAZ ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpAZ" "lucide-react", createObj !!props)
+    static member inline ArrowUpDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpDown" "lucide-react", createObj !!props)
+    static member inline ArrowUpFromDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpFromDot" "lucide-react", createObj !!props)
+    static member inline ArrowUpFromLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpFromLine" "lucide-react", createObj !!props)
+    static member inline ArrowUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpLeft" "lucide-react", createObj !!props)
+    static member inline ArrowUpNarrowWide ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpNarrowWide" "lucide-react", createObj !!props)
+    static member inline ArrowUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpRight" "lucide-react", createObj !!props)
+    static member inline ArrowUpToLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpToLine" "lucide-react", createObj !!props)
+    static member inline ArrowUpWideNarrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpWideNarrow" "lucide-react", createObj !!props)
+    static member inline ArrowUpZA ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUpZA" "lucide-react", createObj !!props)
+    static member inline ArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowUp" "lucide-react", createObj !!props)
+    static member inline ArrowsUpFromLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ArrowsUpFromLine" "lucide-react", createObj !!props)
+    static member inline Asterisk ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Asterisk" "lucide-react", createObj !!props)
+    static member inline AtSign ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AtSign" "lucide-react", createObj !!props)
+    static member inline Atom ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Atom" "lucide-react", createObj !!props)
+    static member inline AudioLines ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AudioLines" "lucide-react", createObj !!props)
+    static member inline AudioWaveform ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "AudioWaveform" "lucide-react", createObj !!props)
+    static member inline Award ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Award" "lucide-react", createObj !!props)
+    static member inline Axe ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Axe" "lucide-react", createObj !!props)
+    static member inline Axis3d ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Axis3d" "lucide-react", createObj !!props)
+    static member inline Baby ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Baby" "lucide-react", createObj !!props)
+    static member inline Backpack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Backpack" "lucide-react", createObj !!props)
+    static member inline BadgeAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeAlert" "lucide-react", createObj !!props)
+    static member inline BadgeCent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeCent" "lucide-react", createObj !!props)
+    static member inline BadgeCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeCheck" "lucide-react", createObj !!props)
+    static member inline BadgeDollarSign ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeDollarSign" "lucide-react", createObj !!props)
+    static member inline BadgeEuro ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeEuro" "lucide-react", createObj !!props)
+    static member inline BadgeHelp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeHelp" "lucide-react", createObj !!props)
+    static member inline BadgeIndianRupee ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeIndianRupee" "lucide-react", createObj !!props)
+    static member inline BadgeInfo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeInfo" "lucide-react", createObj !!props)
+    static member inline BadgeJapaneseYen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeJapaneseYen" "lucide-react", createObj !!props)
+    static member inline BadgeMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeMinus" "lucide-react", createObj !!props)
+    static member inline BadgePercent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgePercent" "lucide-react", createObj !!props)
+    static member inline BadgePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgePlus" "lucide-react", createObj !!props)
+    static member inline BadgePoundSterling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgePoundSterling" "lucide-react", createObj !!props)
+    static member inline BadgeRussianRuble ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeRussianRuble" "lucide-react", createObj !!props)
+    static member inline BadgeSwissFranc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeSwissFranc" "lucide-react", createObj !!props)
+    static member inline BadgeX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BadgeX" "lucide-react", createObj !!props)
+    static member inline Badge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Badge" "lucide-react", createObj !!props)
+    static member inline BaggageClaim ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BaggageClaim" "lucide-react", createObj !!props)
+    static member inline Ban ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ban" "lucide-react", createObj !!props)
+    static member inline Banana ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Banana" "lucide-react", createObj !!props)
+    static member inline Bandage ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bandage" "lucide-react", createObj !!props)
+    static member inline Banknote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Banknote" "lucide-react", createObj !!props)
+    static member inline Barcode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Barcode" "lucide-react", createObj !!props)
+    static member inline Baseline ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Baseline" "lucide-react", createObj !!props)
+    static member inline Bath ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bath" "lucide-react", createObj !!props)
+    static member inline BatteryCharging ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryCharging" "lucide-react", createObj !!props)
+    static member inline BatteryFull ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryFull" "lucide-react", createObj !!props)
+    static member inline BatteryLow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryLow" "lucide-react", createObj !!props)
+    static member inline BatteryMedium ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryMedium" "lucide-react", createObj !!props)
+    static member inline BatteryPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryPlus" "lucide-react", createObj !!props)
+    static member inline BatteryWarning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BatteryWarning" "lucide-react", createObj !!props)
+    static member inline Battery ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Battery" "lucide-react", createObj !!props)
+    static member inline Beaker ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Beaker" "lucide-react", createObj !!props)
+    static member inline BeanOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BeanOff" "lucide-react", createObj !!props)
+    static member inline Bean ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bean" "lucide-react", createObj !!props)
+    static member inline BedDouble ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BedDouble" "lucide-react", createObj !!props)
+    static member inline BedSingle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BedSingle" "lucide-react", createObj !!props)
+    static member inline Bed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bed" "lucide-react", createObj !!props)
+    static member inline Beef ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Beef" "lucide-react", createObj !!props)
+    static member inline BeerOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BeerOff" "lucide-react", createObj !!props)
+    static member inline Beer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Beer" "lucide-react", createObj !!props)
+    static member inline BellDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellDot" "lucide-react", createObj !!props)
+    static member inline BellElectric ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellElectric" "lucide-react", createObj !!props)
+    static member inline BellMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellMinus" "lucide-react", createObj !!props)
+    static member inline BellOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellOff" "lucide-react", createObj !!props)
+    static member inline BellPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellPlus" "lucide-react", createObj !!props)
+    static member inline BellRing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BellRing" "lucide-react", createObj !!props)
+    static member inline Bell ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bell" "lucide-react", createObj !!props)
+    static member inline BetweenHorizontalEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BetweenHorizontalEnd" "lucide-react", createObj !!props)
+    static member inline BetweenHorizontalStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BetweenHorizontalStart" "lucide-react", createObj !!props)
+    static member inline BetweenVerticalEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BetweenVerticalEnd" "lucide-react", createObj !!props)
+    static member inline BetweenVerticalStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BetweenVerticalStart" "lucide-react", createObj !!props)
+    static member inline BicepsFlexed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BicepsFlexed" "lucide-react", createObj !!props)
+    static member inline Bike ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bike" "lucide-react", createObj !!props)
+    static member inline Binary ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Binary" "lucide-react", createObj !!props)
+    static member inline Binoculars ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Binoculars" "lucide-react", createObj !!props)
+    static member inline Biohazard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Biohazard" "lucide-react", createObj !!props)
+    static member inline Bird ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bird" "lucide-react", createObj !!props)
+    static member inline Bitcoin ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bitcoin" "lucide-react", createObj !!props)
+    static member inline Blend ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Blend" "lucide-react", createObj !!props)
+    static member inline Blinds ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Blinds" "lucide-react", createObj !!props)
+    static member inline Blocks ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Blocks" "lucide-react", createObj !!props)
+    static member inline BluetoothConnected ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BluetoothConnected" "lucide-react", createObj !!props)
+    static member inline BluetoothOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BluetoothOff" "lucide-react", createObj !!props)
+    static member inline BluetoothSearching ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BluetoothSearching" "lucide-react", createObj !!props)
+    static member inline Bluetooth ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bluetooth" "lucide-react", createObj !!props)
+    static member inline Bold ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bold" "lucide-react", createObj !!props)
+    static member inline Bolt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bolt" "lucide-react", createObj !!props)
+    static member inline Bomb ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bomb" "lucide-react", createObj !!props)
+    static member inline Bone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bone" "lucide-react", createObj !!props)
+    static member inline BookA ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookA" "lucide-react", createObj !!props)
+    static member inline BookAudio ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookAudio" "lucide-react", createObj !!props)
+    static member inline BookCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookCheck" "lucide-react", createObj !!props)
+    static member inline BookCopy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookCopy" "lucide-react", createObj !!props)
+    static member inline BookDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookDashed" "lucide-react", createObj !!props)
+    static member inline BookDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookDown" "lucide-react", createObj !!props)
+    static member inline BookHeadphones ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookHeadphones" "lucide-react", createObj !!props)
+    static member inline BookHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookHeart" "lucide-react", createObj !!props)
+    static member inline BookImage ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookImage" "lucide-react", createObj !!props)
+    static member inline BookKey ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookKey" "lucide-react", createObj !!props)
+    static member inline BookLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookLock" "lucide-react", createObj !!props)
+    static member inline BookMarked ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookMarked" "lucide-react", createObj !!props)
+    static member inline BookMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookMinus" "lucide-react", createObj !!props)
+    static member inline BookOpenCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookOpenCheck" "lucide-react", createObj !!props)
+    static member inline BookOpenText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookOpenText" "lucide-react", createObj !!props)
+    static member inline BookOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookOpen" "lucide-react", createObj !!props)
+    static member inline BookPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookPlus" "lucide-react", createObj !!props)
+    static member inline BookText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookText" "lucide-react", createObj !!props)
+    static member inline BookType ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookType" "lucide-react", createObj !!props)
+    static member inline BookUp2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookUp2" "lucide-react", createObj !!props)
+    static member inline BookUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookUp" "lucide-react", createObj !!props)
+    static member inline BookUser ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookUser" "lucide-react", createObj !!props)
+    static member inline BookX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookX" "lucide-react", createObj !!props)
+    static member inline Book ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Book" "lucide-react", createObj !!props)
+    static member inline BookmarkCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookmarkCheck" "lucide-react", createObj !!props)
+    static member inline BookmarkMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookmarkMinus" "lucide-react", createObj !!props)
+    static member inline BookmarkPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookmarkPlus" "lucide-react", createObj !!props)
+    static member inline BookmarkX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BookmarkX" "lucide-react", createObj !!props)
+    static member inline Bookmark ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bookmark" "lucide-react", createObj !!props)
+    static member inline BoomBox ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BoomBox" "lucide-react", createObj !!props)
+    static member inline BotMessageSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BotMessageSquare" "lucide-react", createObj !!props)
+    static member inline BotOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BotOff" "lucide-react", createObj !!props)
+    static member inline Bot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bot" "lucide-react", createObj !!props)
+    static member inline Box ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Box" "lucide-react", createObj !!props)
+    static member inline Boxes ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Boxes" "lucide-react", createObj !!props)
+    static member inline Braces ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Braces" "lucide-react", createObj !!props)
+    static member inline Brackets ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Brackets" "lucide-react", createObj !!props)
+    static member inline BrainCircuit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BrainCircuit" "lucide-react", createObj !!props)
+    static member inline BrainCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BrainCog" "lucide-react", createObj !!props)
+    static member inline Brain ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Brain" "lucide-react", createObj !!props)
+    static member inline BrickWall ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BrickWall" "lucide-react", createObj !!props)
+    static member inline BriefcaseBusiness ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BriefcaseBusiness" "lucide-react", createObj !!props)
+    static member inline BriefcaseConveyorBelt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BriefcaseConveyorBelt" "lucide-react", createObj !!props)
+    static member inline BriefcaseMedical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BriefcaseMedical" "lucide-react", createObj !!props)
+    static member inline Briefcase ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Briefcase" "lucide-react", createObj !!props)
+    static member inline BringToFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BringToFront" "lucide-react", createObj !!props)
+    static member inline Brush ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Brush" "lucide-react", createObj !!props)
+    static member inline BugOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BugOff" "lucide-react", createObj !!props)
+    static member inline BugPlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BugPlay" "lucide-react", createObj !!props)
+    static member inline Bug ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bug" "lucide-react", createObj !!props)
+    static member inline Building2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Building2" "lucide-react", createObj !!props)
+    static member inline Building ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Building" "lucide-react", createObj !!props)
+    static member inline BusFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "BusFront" "lucide-react", createObj !!props)
+    static member inline Bus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Bus" "lucide-react", createObj !!props)
+    static member inline CableCar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CableCar" "lucide-react", createObj !!props)
+    static member inline Cable ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cable" "lucide-react", createObj !!props)
+    static member inline CakeSlice ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CakeSlice" "lucide-react", createObj !!props)
+    static member inline Cake ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cake" "lucide-react", createObj !!props)
+    static member inline Calculator ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Calculator" "lucide-react", createObj !!props)
+    static member inline Calendar1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Calendar1" "lucide-react", createObj !!props)
+    static member inline CalendarArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarArrowDown" "lucide-react", createObj !!props)
+    static member inline CalendarArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarArrowUp" "lucide-react", createObj !!props)
+    static member inline CalendarCheck2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarCheck2" "lucide-react", createObj !!props)
+    static member inline CalendarCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarCheck" "lucide-react", createObj !!props)
+    static member inline CalendarClock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarClock" "lucide-react", createObj !!props)
+    static member inline CalendarCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarCog" "lucide-react", createObj !!props)
+    static member inline CalendarDays ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarDays" "lucide-react", createObj !!props)
+    static member inline CalendarFold ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarFold" "lucide-react", createObj !!props)
+    static member inline CalendarHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarHeart" "lucide-react", createObj !!props)
+    static member inline CalendarMinus2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarMinus2" "lucide-react", createObj !!props)
+    static member inline CalendarMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarMinus" "lucide-react", createObj !!props)
+    static member inline CalendarOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarOff" "lucide-react", createObj !!props)
+    static member inline CalendarPlus2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarPlus2" "lucide-react", createObj !!props)
+    static member inline CalendarPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarPlus" "lucide-react", createObj !!props)
+    static member inline CalendarRange ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarRange" "lucide-react", createObj !!props)
+    static member inline CalendarSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarSearch" "lucide-react", createObj !!props)
+    static member inline CalendarSync ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarSync" "lucide-react", createObj !!props)
+    static member inline CalendarX2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarX2" "lucide-react", createObj !!props)
+    static member inline CalendarX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CalendarX" "lucide-react", createObj !!props)
+    static member inline Calendar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Calendar" "lucide-react", createObj !!props)
+    static member inline CameraOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CameraOff" "lucide-react", createObj !!props)
+    static member inline Camera ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Camera" "lucide-react", createObj !!props)
+    static member inline CandyCane ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CandyCane" "lucide-react", createObj !!props)
+    static member inline CandyOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CandyOff" "lucide-react", createObj !!props)
+    static member inline Candy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Candy" "lucide-react", createObj !!props)
+    static member inline Cannabis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cannabis" "lucide-react", createObj !!props)
+    static member inline CaptionsOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CaptionsOff" "lucide-react", createObj !!props)
+    static member inline Captions ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Captions" "lucide-react", createObj !!props)
+    static member inline CarFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CarFront" "lucide-react", createObj !!props)
+    static member inline CarTaxiFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CarTaxiFront" "lucide-react", createObj !!props)
+    static member inline Car ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Car" "lucide-react", createObj !!props)
+    static member inline Caravan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Caravan" "lucide-react", createObj !!props)
+    static member inline Carrot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Carrot" "lucide-react", createObj !!props)
+    static member inline CaseLower ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CaseLower" "lucide-react", createObj !!props)
+    static member inline CaseSensitive ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CaseSensitive" "lucide-react", createObj !!props)
+    static member inline CaseUpper ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CaseUpper" "lucide-react", createObj !!props)
+    static member inline CassetteTape ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CassetteTape" "lucide-react", createObj !!props)
+    static member inline Cast ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cast" "lucide-react", createObj !!props)
+    static member inline Castle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Castle" "lucide-react", createObj !!props)
+    static member inline Cat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cat" "lucide-react", createObj !!props)
+    static member inline Cctv ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cctv" "lucide-react", createObj !!props)
+    static member inline ChartArea ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartArea" "lucide-react", createObj !!props)
+    static member inline ChartBarBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartBarBig" "lucide-react", createObj !!props)
+    static member inline ChartBarDecreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartBarDecreasing" "lucide-react", createObj !!props)
+    static member inline ChartBarIncreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartBarIncreasing" "lucide-react", createObj !!props)
+    static member inline ChartBarStacked ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartBarStacked" "lucide-react", createObj !!props)
+    static member inline ChartBar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartBar" "lucide-react", createObj !!props)
+    static member inline ChartCandlestick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartCandlestick" "lucide-react", createObj !!props)
+    static member inline ChartColumnBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartColumnBig" "lucide-react", createObj !!props)
+    static member inline ChartColumnDecreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartColumnDecreasing" "lucide-react", createObj !!props)
+    static member inline ChartColumnIncreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartColumnIncreasing" "lucide-react", createObj !!props)
+    static member inline ChartColumnStacked ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartColumnStacked" "lucide-react", createObj !!props)
+    static member inline ChartColumn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartColumn" "lucide-react", createObj !!props)
+    static member inline ChartGantt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartGantt" "lucide-react", createObj !!props)
+    static member inline ChartLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartLine" "lucide-react", createObj !!props)
+    static member inline ChartNetwork ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNetwork" "lucide-react", createObj !!props)
+    static member inline ChartNoAxesColumnDecreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNoAxesColumnDecreasing" "lucide-react", createObj !!props)
+    static member inline ChartNoAxesColumnIncreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNoAxesColumnIncreasing" "lucide-react", createObj !!props)
+    static member inline ChartNoAxesColumn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNoAxesColumn" "lucide-react", createObj !!props)
+    static member inline ChartNoAxesCombined ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNoAxesCombined" "lucide-react", createObj !!props)
+    static member inline ChartNoAxesGantt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartNoAxesGantt" "lucide-react", createObj !!props)
+    static member inline ChartPie ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartPie" "lucide-react", createObj !!props)
+    static member inline ChartScatter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartScatter" "lucide-react", createObj !!props)
+    static member inline ChartSpline ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChartSpline" "lucide-react", createObj !!props)
+    static member inline CheckCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CheckCheck" "lucide-react", createObj !!props)
+    static member inline Check ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Check" "lucide-react", createObj !!props)
+    static member inline ChefHat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChefHat" "lucide-react", createObj !!props)
+    static member inline Cherry ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cherry" "lucide-react", createObj !!props)
+    static member inline ChevronDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronDown" "lucide-react", createObj !!props)
+    static member inline ChevronFirst ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronFirst" "lucide-react", createObj !!props)
+    static member inline ChevronLast ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronLast" "lucide-react", createObj !!props)
+    static member inline ChevronLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronLeft" "lucide-react", createObj !!props)
+    static member inline ChevronRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronRight" "lucide-react", createObj !!props)
+    static member inline ChevronUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronUp" "lucide-react", createObj !!props)
+    static member inline ChevronsDownUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsDownUp" "lucide-react", createObj !!props)
+    static member inline ChevronsDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsDown" "lucide-react", createObj !!props)
+    static member inline ChevronsLeftRightEllipsis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsLeftRightEllipsis" "lucide-react", createObj !!props)
+    static member inline ChevronsLeftRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsLeftRight" "lucide-react", createObj !!props)
+    static member inline ChevronsLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsLeft" "lucide-react", createObj !!props)
+    static member inline ChevronsRightLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsRightLeft" "lucide-react", createObj !!props)
+    static member inline ChevronsRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsRight" "lucide-react", createObj !!props)
+    static member inline ChevronsUpDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsUpDown" "lucide-react", createObj !!props)
+    static member inline ChevronsUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ChevronsUp" "lucide-react", createObj !!props)
+    static member inline Chrome ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Chrome" "lucide-react", createObj !!props)
+    static member inline Church ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Church" "lucide-react", createObj !!props)
+    static member inline CigaretteOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CigaretteOff" "lucide-react", createObj !!props)
+    static member inline Cigarette ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cigarette" "lucide-react", createObj !!props)
+    static member inline CircleAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleAlert" "lucide-react", createObj !!props)
+    static member inline CircleArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowDown" "lucide-react", createObj !!props)
+    static member inline CircleArrowLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowLeft" "lucide-react", createObj !!props)
+    static member inline CircleArrowOutDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowOutDownLeft" "lucide-react", createObj !!props)
+    static member inline CircleArrowOutDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowOutDownRight" "lucide-react", createObj !!props)
+    static member inline CircleArrowOutUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowOutUpLeft" "lucide-react", createObj !!props)
+    static member inline CircleArrowOutUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowOutUpRight" "lucide-react", createObj !!props)
+    static member inline CircleArrowRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowRight" "lucide-react", createObj !!props)
+    static member inline CircleArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleArrowUp" "lucide-react", createObj !!props)
+    static member inline CircleCheckBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleCheckBig" "lucide-react", createObj !!props)
+    static member inline CircleCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleCheck" "lucide-react", createObj !!props)
+    static member inline CircleChevronDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleChevronDown" "lucide-react", createObj !!props)
+    static member inline CircleChevronLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleChevronLeft" "lucide-react", createObj !!props)
+    static member inline CircleChevronRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleChevronRight" "lucide-react", createObj !!props)
+    static member inline CircleChevronUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleChevronUp" "lucide-react", createObj !!props)
+    static member inline CircleDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleDashed" "lucide-react", createObj !!props)
+    static member inline CircleDivide ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleDivide" "lucide-react", createObj !!props)
+    static member inline CircleDollarSign ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleDollarSign" "lucide-react", createObj !!props)
+    static member inline CircleDotDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleDotDashed" "lucide-react", createObj !!props)
+    static member inline CircleDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleDot" "lucide-react", createObj !!props)
+    static member inline CircleEllipsis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleEllipsis" "lucide-react", createObj !!props)
+    static member inline CircleEqual ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleEqual" "lucide-react", createObj !!props)
+    static member inline CircleFadingArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleFadingArrowUp" "lucide-react", createObj !!props)
+    static member inline CircleFadingPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleFadingPlus" "lucide-react", createObj !!props)
+    static member inline CircleGauge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleGauge" "lucide-react", createObj !!props)
+    static member inline CircleHelp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleHelp" "lucide-react", createObj !!props)
+    static member inline CircleMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleMinus" "lucide-react", createObj !!props)
+    static member inline CircleOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleOff" "lucide-react", createObj !!props)
+    static member inline CircleParkingOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleParkingOff" "lucide-react", createObj !!props)
+    static member inline CircleParking ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleParking" "lucide-react", createObj !!props)
+    static member inline CirclePause ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CirclePause" "lucide-react", createObj !!props)
+    static member inline CirclePercent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CirclePercent" "lucide-react", createObj !!props)
+    static member inline CirclePlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CirclePlay" "lucide-react", createObj !!props)
+    static member inline CirclePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CirclePlus" "lucide-react", createObj !!props)
+    static member inline CirclePower ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CirclePower" "lucide-react", createObj !!props)
+    static member inline CircleSlash2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleSlash2" "lucide-react", createObj !!props)
+    static member inline CircleSlash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleSlash" "lucide-react", createObj !!props)
+    static member inline CircleStop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleStop" "lucide-react", createObj !!props)
+    static member inline CircleUserRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleUserRound" "lucide-react", createObj !!props)
+    static member inline CircleUser ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleUser" "lucide-react", createObj !!props)
+    static member inline CircleX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircleX" "lucide-react", createObj !!props)
+    static member inline Circle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Circle" "lucide-react", createObj !!props)
+    static member inline CircuitBoard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CircuitBoard" "lucide-react", createObj !!props)
+    static member inline Citrus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Citrus" "lucide-react", createObj !!props)
+    static member inline Clapperboard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clapperboard" "lucide-react", createObj !!props)
+    static member inline ClipboardCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardCheck" "lucide-react", createObj !!props)
+    static member inline ClipboardCopy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardCopy" "lucide-react", createObj !!props)
+    static member inline ClipboardList ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardList" "lucide-react", createObj !!props)
+    static member inline ClipboardMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardMinus" "lucide-react", createObj !!props)
+    static member inline ClipboardPaste ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardPaste" "lucide-react", createObj !!props)
+    static member inline ClipboardPenLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardPenLine" "lucide-react", createObj !!props)
+    static member inline ClipboardPen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardPen" "lucide-react", createObj !!props)
+    static member inline ClipboardPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardPlus" "lucide-react", createObj !!props)
+    static member inline ClipboardType ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardType" "lucide-react", createObj !!props)
+    static member inline ClipboardX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClipboardX" "lucide-react", createObj !!props)
+    static member inline Clipboard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clipboard" "lucide-react", createObj !!props)
+    static member inline Clock1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock1" "lucide-react", createObj !!props)
+    static member inline Clock10 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock10" "lucide-react", createObj !!props)
+    static member inline Clock11 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock11" "lucide-react", createObj !!props)
+    static member inline Clock12 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock12" "lucide-react", createObj !!props)
+    static member inline Clock2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock2" "lucide-react", createObj !!props)
+    static member inline Clock3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock3" "lucide-react", createObj !!props)
+    static member inline Clock4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock4" "lucide-react", createObj !!props)
+    static member inline Clock5 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock5" "lucide-react", createObj !!props)
+    static member inline Clock6 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock6" "lucide-react", createObj !!props)
+    static member inline Clock7 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock7" "lucide-react", createObj !!props)
+    static member inline Clock8 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock8" "lucide-react", createObj !!props)
+    static member inline Clock9 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock9" "lucide-react", createObj !!props)
+    static member inline ClockAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClockAlert" "lucide-react", createObj !!props)
+    static member inline ClockArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClockArrowDown" "lucide-react", createObj !!props)
+    static member inline ClockArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ClockArrowUp" "lucide-react", createObj !!props)
+    static member inline Clock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clock" "lucide-react", createObj !!props)
+    static member inline CloudAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudAlert" "lucide-react", createObj !!props)
+    static member inline CloudCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudCog" "lucide-react", createObj !!props)
+    static member inline CloudDownload ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudDownload" "lucide-react", createObj !!props)
+    static member inline CloudDrizzle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudDrizzle" "lucide-react", createObj !!props)
+    static member inline CloudFog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudFog" "lucide-react", createObj !!props)
+    static member inline CloudHail ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudHail" "lucide-react", createObj !!props)
+    static member inline CloudLightning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudLightning" "lucide-react", createObj !!props)
+    static member inline CloudMoonRain ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudMoonRain" "lucide-react", createObj !!props)
+    static member inline CloudMoon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudMoon" "lucide-react", createObj !!props)
+    static member inline CloudOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudOff" "lucide-react", createObj !!props)
+    static member inline CloudRainWind ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudRainWind" "lucide-react", createObj !!props)
+    static member inline CloudRain ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudRain" "lucide-react", createObj !!props)
+    static member inline CloudSnow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudSnow" "lucide-react", createObj !!props)
+    static member inline CloudSunRain ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudSunRain" "lucide-react", createObj !!props)
+    static member inline CloudSun ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudSun" "lucide-react", createObj !!props)
+    static member inline CloudUpload ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CloudUpload" "lucide-react", createObj !!props)
+    static member inline Cloud ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cloud" "lucide-react", createObj !!props)
+    static member inline Cloudy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cloudy" "lucide-react", createObj !!props)
+    static member inline Clover ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Clover" "lucide-react", createObj !!props)
+    static member inline Club ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Club" "lucide-react", createObj !!props)
+    static member inline CodeXml ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CodeXml" "lucide-react", createObj !!props)
+    static member inline Code ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Code" "lucide-react", createObj !!props)
+    static member inline Codepen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Codepen" "lucide-react", createObj !!props)
+    static member inline Codesandbox ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Codesandbox" "lucide-react", createObj !!props)
+    static member inline Coffee ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Coffee" "lucide-react", createObj !!props)
+    static member inline Cog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cog" "lucide-react", createObj !!props)
+    static member inline Coins ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Coins" "lucide-react", createObj !!props)
+    static member inline Columns2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Columns2" "lucide-react", createObj !!props)
+    static member inline Columns3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Columns3" "lucide-react", createObj !!props)
+    static member inline Columns4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Columns4" "lucide-react", createObj !!props)
+    static member inline Combine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Combine" "lucide-react", createObj !!props)
+    static member inline Command ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Command" "lucide-react", createObj !!props)
+    static member inline Compass ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Compass" "lucide-react", createObj !!props)
+    static member inline Component ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Component" "lucide-react", createObj !!props)
+    static member inline Computer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Computer" "lucide-react", createObj !!props)
+    static member inline ConciergeBell ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ConciergeBell" "lucide-react", createObj !!props)
+    static member inline Cone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cone" "lucide-react", createObj !!props)
+    static member inline Construction ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Construction" "lucide-react", createObj !!props)
+    static member inline ContactRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ContactRound" "lucide-react", createObj !!props)
+    static member inline Contact ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Contact" "lucide-react", createObj !!props)
+    static member inline Container ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Container" "lucide-react", createObj !!props)
+    static member inline Contrast ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Contrast" "lucide-react", createObj !!props)
+    static member inline Cookie ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cookie" "lucide-react", createObj !!props)
+    static member inline CookingPot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CookingPot" "lucide-react", createObj !!props)
+    static member inline CopyCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CopyCheck" "lucide-react", createObj !!props)
+    static member inline CopyMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CopyMinus" "lucide-react", createObj !!props)
+    static member inline CopyPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CopyPlus" "lucide-react", createObj !!props)
+    static member inline CopySlash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CopySlash" "lucide-react", createObj !!props)
+    static member inline CopyX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CopyX" "lucide-react", createObj !!props)
+    static member inline Copy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Copy" "lucide-react", createObj !!props)
+    static member inline Copyleft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Copyleft" "lucide-react", createObj !!props)
+    static member inline Copyright ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Copyright" "lucide-react", createObj !!props)
+    static member inline CornerDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerDownLeft" "lucide-react", createObj !!props)
+    static member inline CornerDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerDownRight" "lucide-react", createObj !!props)
+    static member inline CornerLeftDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerLeftDown" "lucide-react", createObj !!props)
+    static member inline CornerLeftUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerLeftUp" "lucide-react", createObj !!props)
+    static member inline CornerRightDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerRightDown" "lucide-react", createObj !!props)
+    static member inline CornerRightUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerRightUp" "lucide-react", createObj !!props)
+    static member inline CornerUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerUpLeft" "lucide-react", createObj !!props)
+    static member inline CornerUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CornerUpRight" "lucide-react", createObj !!props)
+    static member inline Cpu ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cpu" "lucide-react", createObj !!props)
+    static member inline CreativeCommons ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CreativeCommons" "lucide-react", createObj !!props)
+    static member inline CreditCard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CreditCard" "lucide-react", createObj !!props)
+    static member inline Croissant ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Croissant" "lucide-react", createObj !!props)
+    static member inline Crop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Crop" "lucide-react", createObj !!props)
+    static member inline Cross ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cross" "lucide-react", createObj !!props)
+    static member inline Crosshair ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Crosshair" "lucide-react", createObj !!props)
+    static member inline Crown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Crown" "lucide-react", createObj !!props)
+    static member inline Cuboid ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cuboid" "lucide-react", createObj !!props)
+    static member inline CupSoda ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "CupSoda" "lucide-react", createObj !!props)
+    static member inline Currency ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Currency" "lucide-react", createObj !!props)
+    static member inline Cylinder ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Cylinder" "lucide-react", createObj !!props)
+    static member inline Dam ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dam" "lucide-react", createObj !!props)
+    static member inline DatabaseBackup ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DatabaseBackup" "lucide-react", createObj !!props)
+    static member inline DatabaseZap ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DatabaseZap" "lucide-react", createObj !!props)
+    static member inline Database ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Database" "lucide-react", createObj !!props)
+    static member inline Delete ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Delete" "lucide-react", createObj !!props)
+    static member inline Dessert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dessert" "lucide-react", createObj !!props)
+    static member inline Diameter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Diameter" "lucide-react", createObj !!props)
+    static member inline DiamondMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DiamondMinus" "lucide-react", createObj !!props)
+    static member inline DiamondPercent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DiamondPercent" "lucide-react", createObj !!props)
+    static member inline DiamondPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DiamondPlus" "lucide-react", createObj !!props)
+    static member inline Diamond ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Diamond" "lucide-react", createObj !!props)
+    static member inline Dice1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice1" "lucide-react", createObj !!props)
+    static member inline Dice2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice2" "lucide-react", createObj !!props)
+    static member inline Dice3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice3" "lucide-react", createObj !!props)
+    static member inline Dice4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice4" "lucide-react", createObj !!props)
+    static member inline Dice5 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice5" "lucide-react", createObj !!props)
+    static member inline Dice6 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dice6" "lucide-react", createObj !!props)
+    static member inline Dices ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dices" "lucide-react", createObj !!props)
+    static member inline Diff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Diff" "lucide-react", createObj !!props)
+    static member inline Disc2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Disc2" "lucide-react", createObj !!props)
+    static member inline Disc3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Disc3" "lucide-react", createObj !!props)
+    static member inline DiscAlbum ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DiscAlbum" "lucide-react", createObj !!props)
+    static member inline Disc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Disc" "lucide-react", createObj !!props)
+    static member inline Divide ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Divide" "lucide-react", createObj !!props)
+    static member inline DnaOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DnaOff" "lucide-react", createObj !!props)
+    static member inline Dna ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dna" "lucide-react", createObj !!props)
+    static member inline Dock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dock" "lucide-react", createObj !!props)
+    static member inline Dog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dog" "lucide-react", createObj !!props)
+    static member inline DollarSign ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DollarSign" "lucide-react", createObj !!props)
+    static member inline Donut ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Donut" "lucide-react", createObj !!props)
+    static member inline DoorClosed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DoorClosed" "lucide-react", createObj !!props)
+    static member inline DoorOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DoorOpen" "lucide-react", createObj !!props)
+    static member inline Dot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dot" "lucide-react", createObj !!props)
+    static member inline Download ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Download" "lucide-react", createObj !!props)
+    static member inline DraftingCompass ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DraftingCompass" "lucide-react", createObj !!props)
+    static member inline Drama ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Drama" "lucide-react", createObj !!props)
+    static member inline Dribbble ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dribbble" "lucide-react", createObj !!props)
+    static member inline Drill ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Drill" "lucide-react", createObj !!props)
+    static member inline DropletOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "DropletOff" "lucide-react", createObj !!props)
+    static member inline Droplet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Droplet" "lucide-react", createObj !!props)
+    static member inline Droplets ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Droplets" "lucide-react", createObj !!props)
+    static member inline Drum ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Drum" "lucide-react", createObj !!props)
+    static member inline Drumstick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Drumstick" "lucide-react", createObj !!props)
+    static member inline Dumbbell ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Dumbbell" "lucide-react", createObj !!props)
+    static member inline EarOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EarOff" "lucide-react", createObj !!props)
+    static member inline Ear ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ear" "lucide-react", createObj !!props)
+    static member inline EarthLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EarthLock" "lucide-react", createObj !!props)
+    static member inline Earth ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Earth" "lucide-react", createObj !!props)
+    static member inline Eclipse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Eclipse" "lucide-react", createObj !!props)
+    static member inline EggFried ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EggFried" "lucide-react", createObj !!props)
+    static member inline EggOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EggOff" "lucide-react", createObj !!props)
+    static member inline Egg ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Egg" "lucide-react", createObj !!props)
+    static member inline EllipsisVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EllipsisVertical" "lucide-react", createObj !!props)
+    static member inline Ellipsis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ellipsis" "lucide-react", createObj !!props)
+    static member inline EqualApproximately ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EqualApproximately" "lucide-react", createObj !!props)
+    static member inline EqualNot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EqualNot" "lucide-react", createObj !!props)
+    static member inline Equal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Equal" "lucide-react", createObj !!props)
+    static member inline Eraser ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Eraser" "lucide-react", createObj !!props)
+    static member inline EthernetPort ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EthernetPort" "lucide-react", createObj !!props)
+    static member inline Euro ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Euro" "lucide-react", createObj !!props)
+    static member inline Expand ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Expand" "lucide-react", createObj !!props)
+    static member inline ExternalLink ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ExternalLink" "lucide-react", createObj !!props)
+    static member inline EyeClosed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EyeClosed" "lucide-react", createObj !!props)
+    static member inline EyeOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "EyeOff" "lucide-react", createObj !!props)
+    static member inline Eye ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Eye" "lucide-react", createObj !!props)
+    static member inline Facebook ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Facebook" "lucide-react", createObj !!props)
+    static member inline Factory ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Factory" "lucide-react", createObj !!props)
+    static member inline Fan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fan" "lucide-react", createObj !!props)
+    static member inline FastForward ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FastForward" "lucide-react", createObj !!props)
+    static member inline Feather ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Feather" "lucide-react", createObj !!props)
+    static member inline Fence ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fence" "lucide-react", createObj !!props)
+    static member inline FerrisWheel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FerrisWheel" "lucide-react", createObj !!props)
+    static member inline Figma ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Figma" "lucide-react", createObj !!props)
+    static member inline FileArchive ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileArchive" "lucide-react", createObj !!props)
+    static member inline FileAudio2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileAudio2" "lucide-react", createObj !!props)
+    static member inline FileAudio ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileAudio" "lucide-react", createObj !!props)
+    static member inline FileAxis3d ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileAxis3d" "lucide-react", createObj !!props)
+    static member inline FileBadge2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileBadge2" "lucide-react", createObj !!props)
+    static member inline FileBadge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileBadge" "lucide-react", createObj !!props)
+    static member inline FileBox ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileBox" "lucide-react", createObj !!props)
+    static member inline FileChartColumnIncreasing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileChartColumnIncreasing" "lucide-react", createObj !!props)
+    static member inline FileChartColumn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileChartColumn" "lucide-react", createObj !!props)
+    static member inline FileChartLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileChartLine" "lucide-react", createObj !!props)
+    static member inline FileChartPie ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileChartPie" "lucide-react", createObj !!props)
+    static member inline FileCheck2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileCheck2" "lucide-react", createObj !!props)
+    static member inline FileCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileCheck" "lucide-react", createObj !!props)
+    static member inline FileClock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileClock" "lucide-react", createObj !!props)
+    static member inline FileCode2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileCode2" "lucide-react", createObj !!props)
+    static member inline FileCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileCode" "lucide-react", createObj !!props)
+    static member inline FileCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileCog" "lucide-react", createObj !!props)
+    static member inline FileDiff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileDiff" "lucide-react", createObj !!props)
+    static member inline FileDigit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileDigit" "lucide-react", createObj !!props)
+    static member inline FileDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileDown" "lucide-react", createObj !!props)
+    static member inline FileHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileHeart" "lucide-react", createObj !!props)
+    static member inline FileImage ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileImage" "lucide-react", createObj !!props)
+    static member inline FileInput ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileInput" "lucide-react", createObj !!props)
+    static member inline FileJson2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileJson2" "lucide-react", createObj !!props)
+    static member inline FileJson ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileJson" "lucide-react", createObj !!props)
+    static member inline FileKey2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileKey2" "lucide-react", createObj !!props)
+    static member inline FileKey ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileKey" "lucide-react", createObj !!props)
+    static member inline FileLock2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileLock2" "lucide-react", createObj !!props)
+    static member inline FileLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileLock" "lucide-react", createObj !!props)
+    static member inline FileMinus2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileMinus2" "lucide-react", createObj !!props)
+    static member inline FileMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileMinus" "lucide-react", createObj !!props)
+    static member inline FileMusic ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileMusic" "lucide-react", createObj !!props)
+    static member inline FileOutput ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileOutput" "lucide-react", createObj !!props)
+    static member inline FilePenLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FilePenLine" "lucide-react", createObj !!props)
+    static member inline FilePen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FilePen" "lucide-react", createObj !!props)
+    static member inline FilePlus2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FilePlus2" "lucide-react", createObj !!props)
+    static member inline FilePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FilePlus" "lucide-react", createObj !!props)
+    static member inline FileQuestion ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileQuestion" "lucide-react", createObj !!props)
+    static member inline FileScan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileScan" "lucide-react", createObj !!props)
+    static member inline FileSearch2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileSearch2" "lucide-react", createObj !!props)
+    static member inline FileSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileSearch" "lucide-react", createObj !!props)
+    static member inline FileSliders ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileSliders" "lucide-react", createObj !!props)
+    static member inline FileSpreadsheet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileSpreadsheet" "lucide-react", createObj !!props)
+    static member inline FileStack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileStack" "lucide-react", createObj !!props)
+    static member inline FileSymlink ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileSymlink" "lucide-react", createObj !!props)
+    static member inline FileTerminal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileTerminal" "lucide-react", createObj !!props)
+    static member inline FileText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileText" "lucide-react", createObj !!props)
+    static member inline FileType2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileType2" "lucide-react", createObj !!props)
+    static member inline FileType ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileType" "lucide-react", createObj !!props)
+    static member inline FileUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileUp" "lucide-react", createObj !!props)
+    static member inline FileUser ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileUser" "lucide-react", createObj !!props)
+    static member inline FileVideo2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileVideo2" "lucide-react", createObj !!props)
+    static member inline FileVideo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileVideo" "lucide-react", createObj !!props)
+    static member inline FileVolume2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileVolume2" "lucide-react", createObj !!props)
+    static member inline FileVolume ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileVolume" "lucide-react", createObj !!props)
+    static member inline FileWarning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileWarning" "lucide-react", createObj !!props)
+    static member inline FileX2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileX2" "lucide-react", createObj !!props)
+    static member inline FileX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FileX" "lucide-react", createObj !!props)
+    static member inline File ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "File" "lucide-react", createObj !!props)
+    static member inline Files ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Files" "lucide-react", createObj !!props)
+    static member inline Film ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Film" "lucide-react", createObj !!props)
+    static member inline FilterX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FilterX" "lucide-react", createObj !!props)
+    static member inline Filter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Filter" "lucide-react", createObj !!props)
+    static member inline Fingerprint ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fingerprint" "lucide-react", createObj !!props)
+    static member inline FireExtinguisher ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FireExtinguisher" "lucide-react", createObj !!props)
+    static member inline FishOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FishOff" "lucide-react", createObj !!props)
+    static member inline FishSymbol ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FishSymbol" "lucide-react", createObj !!props)
+    static member inline Fish ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fish" "lucide-react", createObj !!props)
+    static member inline FlagOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlagOff" "lucide-react", createObj !!props)
+    static member inline FlagTriangleLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlagTriangleLeft" "lucide-react", createObj !!props)
+    static member inline FlagTriangleRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlagTriangleRight" "lucide-react", createObj !!props)
+    static member inline Flag ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Flag" "lucide-react", createObj !!props)
+    static member inline FlameKindling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlameKindling" "lucide-react", createObj !!props)
+    static member inline Flame ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Flame" "lucide-react", createObj !!props)
+    static member inline FlashlightOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlashlightOff" "lucide-react", createObj !!props)
+    static member inline Flashlight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Flashlight" "lucide-react", createObj !!props)
+    static member inline FlaskConicalOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlaskConicalOff" "lucide-react", createObj !!props)
+    static member inline FlaskConical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlaskConical" "lucide-react", createObj !!props)
+    static member inline FlaskRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlaskRound" "lucide-react", createObj !!props)
+    static member inline FlipHorizontal2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlipHorizontal2" "lucide-react", createObj !!props)
+    static member inline FlipHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlipHorizontal" "lucide-react", createObj !!props)
+    static member inline FlipVertical2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlipVertical2" "lucide-react", createObj !!props)
+    static member inline FlipVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FlipVertical" "lucide-react", createObj !!props)
+    static member inline Flower2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Flower2" "lucide-react", createObj !!props)
+    static member inline Flower ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Flower" "lucide-react", createObj !!props)
+    static member inline Focus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Focus" "lucide-react", createObj !!props)
+    static member inline FoldHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FoldHorizontal" "lucide-react", createObj !!props)
+    static member inline FoldVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FoldVertical" "lucide-react", createObj !!props)
+    static member inline FolderArchive ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderArchive" "lucide-react", createObj !!props)
+    static member inline FolderCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderCheck" "lucide-react", createObj !!props)
+    static member inline FolderClock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderClock" "lucide-react", createObj !!props)
+    static member inline FolderClosed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderClosed" "lucide-react", createObj !!props)
+    static member inline FolderCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderCode" "lucide-react", createObj !!props)
+    static member inline FolderCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderCog" "lucide-react", createObj !!props)
+    static member inline FolderDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderDot" "lucide-react", createObj !!props)
+    static member inline FolderDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderDown" "lucide-react", createObj !!props)
+    static member inline FolderGit2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderGit2" "lucide-react", createObj !!props)
+    static member inline FolderGit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderGit" "lucide-react", createObj !!props)
+    static member inline FolderHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderHeart" "lucide-react", createObj !!props)
+    static member inline FolderInput ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderInput" "lucide-react", createObj !!props)
+    static member inline FolderKanban ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderKanban" "lucide-react", createObj !!props)
+    static member inline FolderKey ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderKey" "lucide-react", createObj !!props)
+    static member inline FolderLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderLock" "lucide-react", createObj !!props)
+    static member inline FolderMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderMinus" "lucide-react", createObj !!props)
+    static member inline FolderOpenDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderOpenDot" "lucide-react", createObj !!props)
+    static member inline FolderOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderOpen" "lucide-react", createObj !!props)
+    static member inline FolderOutput ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderOutput" "lucide-react", createObj !!props)
+    static member inline FolderPen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderPen" "lucide-react", createObj !!props)
+    static member inline FolderPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderPlus" "lucide-react", createObj !!props)
+    static member inline FolderRoot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderRoot" "lucide-react", createObj !!props)
+    static member inline FolderSearch2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderSearch2" "lucide-react", createObj !!props)
+    static member inline FolderSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderSearch" "lucide-react", createObj !!props)
+    static member inline FolderSymlink ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderSymlink" "lucide-react", createObj !!props)
+    static member inline FolderSync ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderSync" "lucide-react", createObj !!props)
+    static member inline FolderTree ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderTree" "lucide-react", createObj !!props)
+    static member inline FolderUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderUp" "lucide-react", createObj !!props)
+    static member inline FolderX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "FolderX" "lucide-react", createObj !!props)
+    static member inline Folder ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Folder" "lucide-react", createObj !!props)
+    static member inline Folders ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Folders" "lucide-react", createObj !!props)
+    static member inline Footprints ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Footprints" "lucide-react", createObj !!props)
+    static member inline Forklift ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Forklift" "lucide-react", createObj !!props)
+    static member inline Forward ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Forward" "lucide-react", createObj !!props)
+    static member inline Frame ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Frame" "lucide-react", createObj !!props)
+    static member inline Framer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Framer" "lucide-react", createObj !!props)
+    static member inline Frown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Frown" "lucide-react", createObj !!props)
+    static member inline Fuel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fuel" "lucide-react", createObj !!props)
+    static member inline Fullscreen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Fullscreen" "lucide-react", createObj !!props)
+    static member inline GalleryHorizontalEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GalleryHorizontalEnd" "lucide-react", createObj !!props)
+    static member inline GalleryHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GalleryHorizontal" "lucide-react", createObj !!props)
+    static member inline GalleryThumbnails ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GalleryThumbnails" "lucide-react", createObj !!props)
+    static member inline GalleryVerticalEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GalleryVerticalEnd" "lucide-react", createObj !!props)
+    static member inline GalleryVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GalleryVertical" "lucide-react", createObj !!props)
+    static member inline Gamepad2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gamepad2" "lucide-react", createObj !!props)
+    static member inline Gamepad ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gamepad" "lucide-react", createObj !!props)
+    static member inline Gauge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gauge" "lucide-react", createObj !!props)
+    static member inline Gavel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gavel" "lucide-react", createObj !!props)
+    static member inline Gem ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gem" "lucide-react", createObj !!props)
+    static member inline Ghost ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ghost" "lucide-react", createObj !!props)
+    static member inline Gift ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gift" "lucide-react", createObj !!props)
+    static member inline GitBranchPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitBranchPlus" "lucide-react", createObj !!props)
+    static member inline GitBranch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitBranch" "lucide-react", createObj !!props)
+    static member inline GitCommitHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitCommitHorizontal" "lucide-react", createObj !!props)
+    static member inline GitCommitVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitCommitVertical" "lucide-react", createObj !!props)
+    static member inline GitCompareArrows ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitCompareArrows" "lucide-react", createObj !!props)
+    static member inline GitCompare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitCompare" "lucide-react", createObj !!props)
+    static member inline GitFork ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitFork" "lucide-react", createObj !!props)
+    static member inline GitGraph ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitGraph" "lucide-react", createObj !!props)
+    static member inline GitMerge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitMerge" "lucide-react", createObj !!props)
+    static member inline GitPullRequestArrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequestArrow" "lucide-react", createObj !!props)
+    static member inline GitPullRequestClosed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequestClosed" "lucide-react", createObj !!props)
+    static member inline GitPullRequestCreateArrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequestCreateArrow" "lucide-react", createObj !!props)
+    static member inline GitPullRequestCreate ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequestCreate" "lucide-react", createObj !!props)
+    static member inline GitPullRequestDraft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequestDraft" "lucide-react", createObj !!props)
+    static member inline GitPullRequest ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GitPullRequest" "lucide-react", createObj !!props)
+    static member inline Github ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Github" "lucide-react", createObj !!props)
+    static member inline Gitlab ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Gitlab" "lucide-react", createObj !!props)
+    static member inline GlassWater ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GlassWater" "lucide-react", createObj !!props)
+    static member inline Glasses ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Glasses" "lucide-react", createObj !!props)
+    static member inline GlobeLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GlobeLock" "lucide-react", createObj !!props)
+    static member inline Globe ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Globe" "lucide-react", createObj !!props)
+    static member inline Goal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Goal" "lucide-react", createObj !!props)
+    static member inline Grab ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grab" "lucide-react", createObj !!props)
+    static member inline GraduationCap ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GraduationCap" "lucide-react", createObj !!props)
+    static member inline Grape ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grape" "lucide-react", createObj !!props)
+    static member inline Grid2x2Check ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grid2x2Check" "lucide-react", createObj !!props)
+    static member inline Grid2x2Plus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grid2x2Plus" "lucide-react", createObj !!props)
+    static member inline Grid2x2X ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grid2x2X" "lucide-react", createObj !!props)
+    static member inline Grid2x2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grid2x2" "lucide-react", createObj !!props)
+    static member inline Grid3x3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grid3x3" "lucide-react", createObj !!props)
+    static member inline GripHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GripHorizontal" "lucide-react", createObj !!props)
+    static member inline GripVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "GripVertical" "lucide-react", createObj !!props)
+    static member inline Grip ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Grip" "lucide-react", createObj !!props)
+    static member inline Group ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Group" "lucide-react", createObj !!props)
+    static member inline Guitar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Guitar" "lucide-react", createObj !!props)
+    static member inline Ham ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ham" "lucide-react", createObj !!props)
+    static member inline Hammer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hammer" "lucide-react", createObj !!props)
+    static member inline HandCoins ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HandCoins" "lucide-react", createObj !!props)
+    static member inline HandHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HandHeart" "lucide-react", createObj !!props)
+    static member inline HandHelping ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HandHelping" "lucide-react", createObj !!props)
+    static member inline HandMetal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HandMetal" "lucide-react", createObj !!props)
+    static member inline HandPlatter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HandPlatter" "lucide-react", createObj !!props)
+    static member inline Hand ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hand" "lucide-react", createObj !!props)
+    static member inline Handshake ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Handshake" "lucide-react", createObj !!props)
+    static member inline HardDriveDownload ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HardDriveDownload" "lucide-react", createObj !!props)
+    static member inline HardDriveUpload ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HardDriveUpload" "lucide-react", createObj !!props)
+    static member inline HardDrive ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HardDrive" "lucide-react", createObj !!props)
+    static member inline HardHat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HardHat" "lucide-react", createObj !!props)
+    static member inline Hash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hash" "lucide-react", createObj !!props)
+    static member inline Haze ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Haze" "lucide-react", createObj !!props)
+    static member inline HdmiPort ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HdmiPort" "lucide-react", createObj !!props)
+    static member inline Heading1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading1" "lucide-react", createObj !!props)
+    static member inline Heading2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading2" "lucide-react", createObj !!props)
+    static member inline Heading3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading3" "lucide-react", createObj !!props)
+    static member inline Heading4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading4" "lucide-react", createObj !!props)
+    static member inline Heading5 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading5" "lucide-react", createObj !!props)
+    static member inline Heading6 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading6" "lucide-react", createObj !!props)
+    static member inline Heading ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heading" "lucide-react", createObj !!props)
+    static member inline HeadphoneOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HeadphoneOff" "lucide-react", createObj !!props)
+    static member inline Headphones ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Headphones" "lucide-react", createObj !!props)
+    static member inline Headset ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Headset" "lucide-react", createObj !!props)
+    static member inline HeartCrack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HeartCrack" "lucide-react", createObj !!props)
+    static member inline HeartHandshake ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HeartHandshake" "lucide-react", createObj !!props)
+    static member inline HeartOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HeartOff" "lucide-react", createObj !!props)
+    static member inline HeartPulse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HeartPulse" "lucide-react", createObj !!props)
+    static member inline Heart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heart" "lucide-react", createObj !!props)
+    static member inline Heater ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Heater" "lucide-react", createObj !!props)
+    static member inline Hexagon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hexagon" "lucide-react", createObj !!props)
+    static member inline Highlighter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Highlighter" "lucide-react", createObj !!props)
+    static member inline History ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "History" "lucide-react", createObj !!props)
+    static member inline HopOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HopOff" "lucide-react", createObj !!props)
+    static member inline Hop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hop" "lucide-react", createObj !!props)
+    static member inline Hospital ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hospital" "lucide-react", createObj !!props)
+    static member inline Hotel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hotel" "lucide-react", createObj !!props)
+    static member inline Hourglass ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Hourglass" "lucide-react", createObj !!props)
+    static member inline HousePlug ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HousePlug" "lucide-react", createObj !!props)
+    static member inline HousePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HousePlus" "lucide-react", createObj !!props)
+    static member inline HouseWifi ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "HouseWifi" "lucide-react", createObj !!props)
+    static member inline House ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "House" "lucide-react", createObj !!props)
+    static member inline IceCreamBowl ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IceCreamBowl" "lucide-react", createObj !!props)
+    static member inline IceCreamCone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IceCreamCone" "lucide-react", createObj !!props)
+    static member inline IdCard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IdCard" "lucide-react", createObj !!props)
+    static member inline ImageDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImageDown" "lucide-react", createObj !!props)
+    static member inline ImageMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImageMinus" "lucide-react", createObj !!props)
+    static member inline ImageOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImageOff" "lucide-react", createObj !!props)
+    static member inline ImagePlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImagePlay" "lucide-react", createObj !!props)
+    static member inline ImagePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImagePlus" "lucide-react", createObj !!props)
+    static member inline ImageUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImageUp" "lucide-react", createObj !!props)
+    static member inline ImageUpscale ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ImageUpscale" "lucide-react", createObj !!props)
+    static member inline Image ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Image" "lucide-react", createObj !!props)
+    static member inline Images ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Images" "lucide-react", createObj !!props)
+    static member inline Import ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Import" "lucide-react", createObj !!props)
+    static member inline Inbox ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Inbox" "lucide-react", createObj !!props)
+    static member inline IndentDecrease ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IndentDecrease" "lucide-react", createObj !!props)
+    static member inline IndentIncrease ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IndentIncrease" "lucide-react", createObj !!props)
+    static member inline IndianRupee ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IndianRupee" "lucide-react", createObj !!props)
+    static member inline Infinity ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Infinity" "lucide-react", createObj !!props)
+    static member inline Info ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Info" "lucide-react", createObj !!props)
+    static member inline InspectionPanel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "InspectionPanel" "lucide-react", createObj !!props)
+    static member inline Instagram ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Instagram" "lucide-react", createObj !!props)
+    static member inline Italic ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Italic" "lucide-react", createObj !!props)
+    static member inline IterationCcw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IterationCcw" "lucide-react", createObj !!props)
+    static member inline IterationCw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "IterationCw" "lucide-react", createObj !!props)
+    static member inline JapaneseYen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "JapaneseYen" "lucide-react", createObj !!props)
+    static member inline Joystick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Joystick" "lucide-react", createObj !!props)
+    static member inline Kanban ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Kanban" "lucide-react", createObj !!props)
+    static member inline KeyRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "KeyRound" "lucide-react", createObj !!props)
+    static member inline KeySquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "KeySquare" "lucide-react", createObj !!props)
+    static member inline Key ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Key" "lucide-react", createObj !!props)
+    static member inline KeyboardMusic ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "KeyboardMusic" "lucide-react", createObj !!props)
+    static member inline KeyboardOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "KeyboardOff" "lucide-react", createObj !!props)
+    static member inline Keyboard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Keyboard" "lucide-react", createObj !!props)
+    static member inline LampCeiling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LampCeiling" "lucide-react", createObj !!props)
+    static member inline LampDesk ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LampDesk" "lucide-react", createObj !!props)
+    static member inline LampFloor ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LampFloor" "lucide-react", createObj !!props)
+    static member inline LampWallDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LampWallDown" "lucide-react", createObj !!props)
+    static member inline LampWallUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LampWallUp" "lucide-react", createObj !!props)
+    static member inline Lamp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lamp" "lucide-react", createObj !!props)
+    static member inline LandPlot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LandPlot" "lucide-react", createObj !!props)
+    static member inline Landmark ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Landmark" "lucide-react", createObj !!props)
+    static member inline Languages ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Languages" "lucide-react", createObj !!props)
+    static member inline LaptopMinimalCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LaptopMinimalCheck" "lucide-react", createObj !!props)
+    static member inline LaptopMinimal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LaptopMinimal" "lucide-react", createObj !!props)
+    static member inline Laptop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Laptop" "lucide-react", createObj !!props)
+    static member inline LassoSelect ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LassoSelect" "lucide-react", createObj !!props)
+    static member inline Lasso ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lasso" "lucide-react", createObj !!props)
+    static member inline Laugh ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Laugh" "lucide-react", createObj !!props)
+    static member inline Layers2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Layers2" "lucide-react", createObj !!props)
+    static member inline Layers ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Layers" "lucide-react", createObj !!props)
+    static member inline LayoutDashboard ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutDashboard" "lucide-react", createObj !!props)
+    static member inline LayoutGrid ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutGrid" "lucide-react", createObj !!props)
+    static member inline LayoutList ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutList" "lucide-react", createObj !!props)
+    static member inline LayoutPanelLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutPanelLeft" "lucide-react", createObj !!props)
+    static member inline LayoutPanelTop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutPanelTop" "lucide-react", createObj !!props)
+    static member inline LayoutTemplate ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LayoutTemplate" "lucide-react", createObj !!props)
+    static member inline Leaf ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Leaf" "lucide-react", createObj !!props)
+    static member inline LeafyGreen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LeafyGreen" "lucide-react", createObj !!props)
+    static member inline Lectern ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lectern" "lucide-react", createObj !!props)
+    static member inline LetterText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LetterText" "lucide-react", createObj !!props)
+    static member inline LibraryBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LibraryBig" "lucide-react", createObj !!props)
+    static member inline Library ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Library" "lucide-react", createObj !!props)
+    static member inline LifeBuoy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LifeBuoy" "lucide-react", createObj !!props)
+    static member inline Ligature ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ligature" "lucide-react", createObj !!props)
+    static member inline LightbulbOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LightbulbOff" "lucide-react", createObj !!props)
+    static member inline Lightbulb ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lightbulb" "lucide-react", createObj !!props)
+    static member inline Link2Off ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Link2Off" "lucide-react", createObj !!props)
+    static member inline Link2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Link2" "lucide-react", createObj !!props)
+    static member inline Link ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Link" "lucide-react", createObj !!props)
+    static member inline Linkedin ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Linkedin" "lucide-react", createObj !!props)
+    static member inline ListCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListCheck" "lucide-react", createObj !!props)
+    static member inline ListChecks ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListChecks" "lucide-react", createObj !!props)
+    static member inline ListCollapse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListCollapse" "lucide-react", createObj !!props)
+    static member inline ListEnd ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListEnd" "lucide-react", createObj !!props)
+    static member inline ListFilterPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListFilterPlus" "lucide-react", createObj !!props)
+    static member inline ListFilter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListFilter" "lucide-react", createObj !!props)
+    static member inline ListMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListMinus" "lucide-react", createObj !!props)
+    static member inline ListMusic ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListMusic" "lucide-react", createObj !!props)
+    static member inline ListOrdered ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListOrdered" "lucide-react", createObj !!props)
+    static member inline ListPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListPlus" "lucide-react", createObj !!props)
+    static member inline ListRestart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListRestart" "lucide-react", createObj !!props)
+    static member inline ListStart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListStart" "lucide-react", createObj !!props)
+    static member inline ListTodo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListTodo" "lucide-react", createObj !!props)
+    static member inline ListTree ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListTree" "lucide-react", createObj !!props)
+    static member inline ListVideo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListVideo" "lucide-react", createObj !!props)
+    static member inline ListX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ListX" "lucide-react", createObj !!props)
+    static member inline List ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "List" "lucide-react", createObj !!props)
+    static member inline LoaderCircle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LoaderCircle" "lucide-react", createObj !!props)
+    static member inline LoaderPinwheel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LoaderPinwheel" "lucide-react", createObj !!props)
+    static member inline Loader ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Loader" "lucide-react", createObj !!props)
+    static member inline LocateFixed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LocateFixed" "lucide-react", createObj !!props)
+    static member inline LocateOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LocateOff" "lucide-react", createObj !!props)
+    static member inline Locate ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Locate" "lucide-react", createObj !!props)
+    static member inline LockKeyholeOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LockKeyholeOpen" "lucide-react", createObj !!props)
+    static member inline LockKeyhole ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LockKeyhole" "lucide-react", createObj !!props)
+    static member inline LockOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LockOpen" "lucide-react", createObj !!props)
+    static member inline Lock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lock" "lucide-react", createObj !!props)
+    static member inline LogIn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LogIn" "lucide-react", createObj !!props)
+    static member inline LogOut ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "LogOut" "lucide-react", createObj !!props)
+    static member inline Logs ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Logs" "lucide-react", createObj !!props)
+    static member inline Lollipop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Lollipop" "lucide-react", createObj !!props)
+    static member inline Luggage ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Luggage" "lucide-react", createObj !!props)
+    static member inline Magnet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Magnet" "lucide-react", createObj !!props)
+    static member inline MailCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailCheck" "lucide-react", createObj !!props)
+    static member inline MailMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailMinus" "lucide-react", createObj !!props)
+    static member inline MailOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailOpen" "lucide-react", createObj !!props)
+    static member inline MailPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailPlus" "lucide-react", createObj !!props)
+    static member inline MailQuestion ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailQuestion" "lucide-react", createObj !!props)
+    static member inline MailSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailSearch" "lucide-react", createObj !!props)
+    static member inline MailWarning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailWarning" "lucide-react", createObj !!props)
+    static member inline MailX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MailX" "lucide-react", createObj !!props)
+    static member inline Mail ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mail" "lucide-react", createObj !!props)
+    static member inline Mailbox ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mailbox" "lucide-react", createObj !!props)
+    static member inline Mails ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mails" "lucide-react", createObj !!props)
+    static member inline MapPinCheckInside ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinCheckInside" "lucide-react", createObj !!props)
+    static member inline MapPinCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinCheck" "lucide-react", createObj !!props)
+    static member inline MapPinHouse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinHouse" "lucide-react", createObj !!props)
+    static member inline MapPinMinusInside ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinMinusInside" "lucide-react", createObj !!props)
+    static member inline MapPinMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinMinus" "lucide-react", createObj !!props)
+    static member inline MapPinOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinOff" "lucide-react", createObj !!props)
+    static member inline MapPinPlusInside ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinPlusInside" "lucide-react", createObj !!props)
+    static member inline MapPinPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinPlus" "lucide-react", createObj !!props)
+    static member inline MapPinXInside ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinXInside" "lucide-react", createObj !!props)
+    static member inline MapPinX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinX" "lucide-react", createObj !!props)
+    static member inline MapPin ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPin" "lucide-react", createObj !!props)
+    static member inline MapPinned ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPinned" "lucide-react", createObj !!props)
+    static member inline MapPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MapPlus" "lucide-react", createObj !!props)
+    static member inline Map ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Map" "lucide-react", createObj !!props)
+    static member inline Martini ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Martini" "lucide-react", createObj !!props)
+    static member inline Maximize2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Maximize2" "lucide-react", createObj !!props)
+    static member inline Maximize ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Maximize" "lucide-react", createObj !!props)
+    static member inline Medal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Medal" "lucide-react", createObj !!props)
+    static member inline MegaphoneOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MegaphoneOff" "lucide-react", createObj !!props)
+    static member inline Megaphone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Megaphone" "lucide-react", createObj !!props)
+    static member inline Meh ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Meh" "lucide-react", createObj !!props)
+    static member inline MemoryStick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MemoryStick" "lucide-react", createObj !!props)
+    static member inline Menu ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Menu" "lucide-react", createObj !!props)
+    static member inline Merge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Merge" "lucide-react", createObj !!props)
+    static member inline MessageCircleCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleCode" "lucide-react", createObj !!props)
+    static member inline MessageCircleDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleDashed" "lucide-react", createObj !!props)
+    static member inline MessageCircleHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleHeart" "lucide-react", createObj !!props)
+    static member inline MessageCircleMore ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleMore" "lucide-react", createObj !!props)
+    static member inline MessageCircleOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleOff" "lucide-react", createObj !!props)
+    static member inline MessageCirclePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCirclePlus" "lucide-react", createObj !!props)
+    static member inline MessageCircleQuestion ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleQuestion" "lucide-react", createObj !!props)
+    static member inline MessageCircleReply ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleReply" "lucide-react", createObj !!props)
+    static member inline MessageCircleWarning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleWarning" "lucide-react", createObj !!props)
+    static member inline MessageCircleX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircleX" "lucide-react", createObj !!props)
+    static member inline MessageCircle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageCircle" "lucide-react", createObj !!props)
+    static member inline MessageSquareCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareCode" "lucide-react", createObj !!props)
+    static member inline MessageSquareDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareDashed" "lucide-react", createObj !!props)
+    static member inline MessageSquareDiff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareDiff" "lucide-react", createObj !!props)
+    static member inline MessageSquareDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareDot" "lucide-react", createObj !!props)
+    static member inline MessageSquareHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareHeart" "lucide-react", createObj !!props)
+    static member inline MessageSquareLock ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareLock" "lucide-react", createObj !!props)
+    static member inline MessageSquareMore ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareMore" "lucide-react", createObj !!props)
+    static member inline MessageSquareOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareOff" "lucide-react", createObj !!props)
+    static member inline MessageSquarePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquarePlus" "lucide-react", createObj !!props)
+    static member inline MessageSquareQuote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareQuote" "lucide-react", createObj !!props)
+    static member inline MessageSquareReply ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareReply" "lucide-react", createObj !!props)
+    static member inline MessageSquareShare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareShare" "lucide-react", createObj !!props)
+    static member inline MessageSquareText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareText" "lucide-react", createObj !!props)
+    static member inline MessageSquareWarning ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareWarning" "lucide-react", createObj !!props)
+    static member inline MessageSquareX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquareX" "lucide-react", createObj !!props)
+    static member inline MessageSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessageSquare" "lucide-react", createObj !!props)
+    static member inline MessagesSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MessagesSquare" "lucide-react", createObj !!props)
+    static member inline MicOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MicOff" "lucide-react", createObj !!props)
+    static member inline MicVocal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MicVocal" "lucide-react", createObj !!props)
+    static member inline Mic ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mic" "lucide-react", createObj !!props)
+    static member inline Microchip ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Microchip" "lucide-react", createObj !!props)
+    static member inline Microscope ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Microscope" "lucide-react", createObj !!props)
+    static member inline Microwave ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Microwave" "lucide-react", createObj !!props)
+    static member inline Milestone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Milestone" "lucide-react", createObj !!props)
+    static member inline MilkOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MilkOff" "lucide-react", createObj !!props)
+    static member inline Milk ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Milk" "lucide-react", createObj !!props)
+    static member inline Minimize2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Minimize2" "lucide-react", createObj !!props)
+    static member inline Minimize ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Minimize" "lucide-react", createObj !!props)
+    static member inline Minus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Minus" "lucide-react", createObj !!props)
+    static member inline MonitorCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorCheck" "lucide-react", createObj !!props)
+    static member inline MonitorCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorCog" "lucide-react", createObj !!props)
+    static member inline MonitorDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorDot" "lucide-react", createObj !!props)
+    static member inline MonitorDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorDown" "lucide-react", createObj !!props)
+    static member inline MonitorOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorOff" "lucide-react", createObj !!props)
+    static member inline MonitorPause ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorPause" "lucide-react", createObj !!props)
+    static member inline MonitorPlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorPlay" "lucide-react", createObj !!props)
+    static member inline MonitorSmartphone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorSmartphone" "lucide-react", createObj !!props)
+    static member inline MonitorSpeaker ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorSpeaker" "lucide-react", createObj !!props)
+    static member inline MonitorStop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorStop" "lucide-react", createObj !!props)
+    static member inline MonitorUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorUp" "lucide-react", createObj !!props)
+    static member inline MonitorX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MonitorX" "lucide-react", createObj !!props)
+    static member inline Monitor ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Monitor" "lucide-react", createObj !!props)
+    static member inline MoonStar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoonStar" "lucide-react", createObj !!props)
+    static member inline Moon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Moon" "lucide-react", createObj !!props)
+    static member inline MountainSnow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MountainSnow" "lucide-react", createObj !!props)
+    static member inline Mountain ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mountain" "lucide-react", createObj !!props)
+    static member inline MouseOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MouseOff" "lucide-react", createObj !!props)
+    static member inline MousePointer2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MousePointer2" "lucide-react", createObj !!props)
+    static member inline MousePointerBan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MousePointerBan" "lucide-react", createObj !!props)
+    static member inline MousePointerClick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MousePointerClick" "lucide-react", createObj !!props)
+    static member inline MousePointer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MousePointer" "lucide-react", createObj !!props)
+    static member inline Mouse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Mouse" "lucide-react", createObj !!props)
+    static member inline Move3d ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Move3d" "lucide-react", createObj !!props)
+    static member inline MoveDiagonal2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveDiagonal2" "lucide-react", createObj !!props)
+    static member inline MoveDiagonal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveDiagonal" "lucide-react", createObj !!props)
+    static member inline MoveDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveDownLeft" "lucide-react", createObj !!props)
+    static member inline MoveDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveDownRight" "lucide-react", createObj !!props)
+    static member inline MoveDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveDown" "lucide-react", createObj !!props)
+    static member inline MoveHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveHorizontal" "lucide-react", createObj !!props)
+    static member inline MoveLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveLeft" "lucide-react", createObj !!props)
+    static member inline MoveRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveRight" "lucide-react", createObj !!props)
+    static member inline MoveUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveUpLeft" "lucide-react", createObj !!props)
+    static member inline MoveUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveUpRight" "lucide-react", createObj !!props)
+    static member inline MoveUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveUp" "lucide-react", createObj !!props)
+    static member inline MoveVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "MoveVertical" "lucide-react", createObj !!props)
+    static member inline Move ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Move" "lucide-react", createObj !!props)
+    static member inline Music2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Music2" "lucide-react", createObj !!props)
+    static member inline Music3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Music3" "lucide-react", createObj !!props)
+    static member inline Music4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Music4" "lucide-react", createObj !!props)
+    static member inline Music ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Music" "lucide-react", createObj !!props)
+    static member inline Navigation2Off ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Navigation2Off" "lucide-react", createObj !!props)
+    static member inline Navigation2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Navigation2" "lucide-react", createObj !!props)
+    static member inline NavigationOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NavigationOff" "lucide-react", createObj !!props)
+    static member inline Navigation ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Navigation" "lucide-react", createObj !!props)
+    static member inline Network ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Network" "lucide-react", createObj !!props)
+    static member inline Newspaper ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Newspaper" "lucide-react", createObj !!props)
+    static member inline Nfc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Nfc" "lucide-react", createObj !!props)
+    static member inline NotebookPen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NotebookPen" "lucide-react", createObj !!props)
+    static member inline NotebookTabs ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NotebookTabs" "lucide-react", createObj !!props)
+    static member inline NotebookText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NotebookText" "lucide-react", createObj !!props)
+    static member inline Notebook ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Notebook" "lucide-react", createObj !!props)
+    static member inline NotepadTextDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NotepadTextDashed" "lucide-react", createObj !!props)
+    static member inline NotepadText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NotepadText" "lucide-react", createObj !!props)
+    static member inline NutOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "NutOff" "lucide-react", createObj !!props)
+    static member inline Nut ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Nut" "lucide-react", createObj !!props)
+    static member inline OctagonAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "OctagonAlert" "lucide-react", createObj !!props)
+    static member inline OctagonMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "OctagonMinus" "lucide-react", createObj !!props)
+    static member inline OctagonPause ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "OctagonPause" "lucide-react", createObj !!props)
+    static member inline OctagonX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "OctagonX" "lucide-react", createObj !!props)
+    static member inline Octagon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Octagon" "lucide-react", createObj !!props)
+    static member inline Omega ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Omega" "lucide-react", createObj !!props)
+    static member inline Option ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Option" "lucide-react", createObj !!props)
+    static member inline Orbit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Orbit" "lucide-react", createObj !!props)
+    static member inline Origami ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Origami" "lucide-react", createObj !!props)
+    static member inline Package2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Package2" "lucide-react", createObj !!props)
+    static member inline PackageCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackageCheck" "lucide-react", createObj !!props)
+    static member inline PackageMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackageMinus" "lucide-react", createObj !!props)
+    static member inline PackageOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackageOpen" "lucide-react", createObj !!props)
+    static member inline PackagePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackagePlus" "lucide-react", createObj !!props)
+    static member inline PackageSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackageSearch" "lucide-react", createObj !!props)
+    static member inline PackageX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PackageX" "lucide-react", createObj !!props)
+    static member inline Package ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Package" "lucide-react", createObj !!props)
+    static member inline PaintBucket ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PaintBucket" "lucide-react", createObj !!props)
+    static member inline PaintRoller ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PaintRoller" "lucide-react", createObj !!props)
+    static member inline PaintbrushVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PaintbrushVertical" "lucide-react", createObj !!props)
+    static member inline Paintbrush ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Paintbrush" "lucide-react", createObj !!props)
+    static member inline Palette ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Palette" "lucide-react", createObj !!props)
+    static member inline PanelBottomClose ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelBottomClose" "lucide-react", createObj !!props)
+    static member inline PanelBottomDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelBottomDashed" "lucide-react", createObj !!props)
+    static member inline PanelBottomOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelBottomOpen" "lucide-react", createObj !!props)
+    static member inline PanelBottom ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelBottom" "lucide-react", createObj !!props)
+    static member inline PanelLeftClose ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelLeftClose" "lucide-react", createObj !!props)
+    static member inline PanelLeftDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelLeftDashed" "lucide-react", createObj !!props)
+    static member inline PanelLeftOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelLeftOpen" "lucide-react", createObj !!props)
+    static member inline PanelLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelLeft" "lucide-react", createObj !!props)
+    static member inline PanelRightClose ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelRightClose" "lucide-react", createObj !!props)
+    static member inline PanelRightDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelRightDashed" "lucide-react", createObj !!props)
+    static member inline PanelRightOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelRightOpen" "lucide-react", createObj !!props)
+    static member inline PanelRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelRight" "lucide-react", createObj !!props)
+    static member inline PanelTopClose ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelTopClose" "lucide-react", createObj !!props)
+    static member inline PanelTopDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelTopDashed" "lucide-react", createObj !!props)
+    static member inline PanelTopOpen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelTopOpen" "lucide-react", createObj !!props)
+    static member inline PanelTop ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelTop" "lucide-react", createObj !!props)
+    static member inline PanelsLeftBottom ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelsLeftBottom" "lucide-react", createObj !!props)
+    static member inline PanelsRightBottom ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelsRightBottom" "lucide-react", createObj !!props)
+    static member inline PanelsTopLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PanelsTopLeft" "lucide-react", createObj !!props)
+    static member inline Paperclip ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Paperclip" "lucide-react", createObj !!props)
+    static member inline Parentheses ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Parentheses" "lucide-react", createObj !!props)
+    static member inline ParkingMeter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ParkingMeter" "lucide-react", createObj !!props)
+    static member inline PartyPopper ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PartyPopper" "lucide-react", createObj !!props)
+    static member inline Pause ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pause" "lucide-react", createObj !!props)
+    static member inline PawPrint ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PawPrint" "lucide-react", createObj !!props)
+    static member inline PcCase ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PcCase" "lucide-react", createObj !!props)
+    static member inline PenLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PenLine" "lucide-react", createObj !!props)
+    static member inline PenOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PenOff" "lucide-react", createObj !!props)
+    static member inline PenTool ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PenTool" "lucide-react", createObj !!props)
+    static member inline Pen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pen" "lucide-react", createObj !!props)
+    static member inline PencilLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PencilLine" "lucide-react", createObj !!props)
+    static member inline PencilOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PencilOff" "lucide-react", createObj !!props)
+    static member inline PencilRuler ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PencilRuler" "lucide-react", createObj !!props)
+    static member inline Pencil ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pencil" "lucide-react", createObj !!props)
+    static member inline Pentagon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pentagon" "lucide-react", createObj !!props)
+    static member inline Percent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Percent" "lucide-react", createObj !!props)
+    static member inline PersonStanding ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PersonStanding" "lucide-react", createObj !!props)
+    static member inline PhilippinePeso ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhilippinePeso" "lucide-react", createObj !!props)
+    static member inline PhoneCall ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneCall" "lucide-react", createObj !!props)
+    static member inline PhoneForwarded ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneForwarded" "lucide-react", createObj !!props)
+    static member inline PhoneIncoming ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneIncoming" "lucide-react", createObj !!props)
+    static member inline PhoneMissed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneMissed" "lucide-react", createObj !!props)
+    static member inline PhoneOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneOff" "lucide-react", createObj !!props)
+    static member inline PhoneOutgoing ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PhoneOutgoing" "lucide-react", createObj !!props)
+    static member inline Phone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Phone" "lucide-react", createObj !!props)
+    static member inline Pi ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pi" "lucide-react", createObj !!props)
+    static member inline Piano ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Piano" "lucide-react", createObj !!props)
+    static member inline Pickaxe ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pickaxe" "lucide-react", createObj !!props)
+    static member inline PictureInPicture2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PictureInPicture2" "lucide-react", createObj !!props)
+    static member inline PictureInPicture ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PictureInPicture" "lucide-react", createObj !!props)
+    static member inline PiggyBank ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PiggyBank" "lucide-react", createObj !!props)
+    static member inline PilcrowLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PilcrowLeft" "lucide-react", createObj !!props)
+    static member inline PilcrowRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PilcrowRight" "lucide-react", createObj !!props)
+    static member inline Pilcrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pilcrow" "lucide-react", createObj !!props)
+    static member inline PillBottle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PillBottle" "lucide-react", createObj !!props)
+    static member inline Pill ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pill" "lucide-react", createObj !!props)
+    static member inline PinOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PinOff" "lucide-react", createObj !!props)
+    static member inline Pin ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pin" "lucide-react", createObj !!props)
+    static member inline Pipette ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pipette" "lucide-react", createObj !!props)
+    static member inline Pizza ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pizza" "lucide-react", createObj !!props)
+    static member inline PlaneLanding ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PlaneLanding" "lucide-react", createObj !!props)
+    static member inline PlaneTakeoff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PlaneTakeoff" "lucide-react", createObj !!props)
+    static member inline Plane ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Plane" "lucide-react", createObj !!props)
+    static member inline Play ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Play" "lucide-react", createObj !!props)
+    static member inline Plug2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Plug2" "lucide-react", createObj !!props)
+    static member inline PlugZap ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PlugZap" "lucide-react", createObj !!props)
+    static member inline Plug ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Plug" "lucide-react", createObj !!props)
+    static member inline Plus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Plus" "lucide-react", createObj !!props)
+    static member inline PocketKnife ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PocketKnife" "lucide-react", createObj !!props)
+    static member inline Pocket ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pocket" "lucide-react", createObj !!props)
+    static member inline Podcast ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Podcast" "lucide-react", createObj !!props)
+    static member inline PointerOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PointerOff" "lucide-react", createObj !!props)
+    static member inline Pointer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pointer" "lucide-react", createObj !!props)
+    static member inline Popcorn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Popcorn" "lucide-react", createObj !!props)
+    static member inline Popsicle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Popsicle" "lucide-react", createObj !!props)
+    static member inline PoundSterling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PoundSterling" "lucide-react", createObj !!props)
+    static member inline PowerOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PowerOff" "lucide-react", createObj !!props)
+    static member inline Power ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Power" "lucide-react", createObj !!props)
+    static member inline Presentation ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Presentation" "lucide-react", createObj !!props)
+    static member inline PrinterCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "PrinterCheck" "lucide-react", createObj !!props)
+    static member inline Printer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Printer" "lucide-react", createObj !!props)
+    static member inline Projector ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Projector" "lucide-react", createObj !!props)
+    static member inline Proportions ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Proportions" "lucide-react", createObj !!props)
+    static member inline Puzzle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Puzzle" "lucide-react", createObj !!props)
+    static member inline Pyramid ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Pyramid" "lucide-react", createObj !!props)
+    static member inline QrCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "QrCode" "lucide-react", createObj !!props)
+    static member inline Quote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Quote" "lucide-react", createObj !!props)
+    static member inline Rabbit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rabbit" "lucide-react", createObj !!props)
+    static member inline Radar ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Radar" "lucide-react", createObj !!props)
+    static member inline Radiation ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Radiation" "lucide-react", createObj !!props)
+    static member inline Radical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Radical" "lucide-react", createObj !!props)
+    static member inline RadioReceiver ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RadioReceiver" "lucide-react", createObj !!props)
+    static member inline RadioTower ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RadioTower" "lucide-react", createObj !!props)
+    static member inline Radio ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Radio" "lucide-react", createObj !!props)
+    static member inline Radius ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Radius" "lucide-react", createObj !!props)
+    static member inline RailSymbol ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RailSymbol" "lucide-react", createObj !!props)
+    static member inline Rainbow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rainbow" "lucide-react", createObj !!props)
+    static member inline Rat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rat" "lucide-react", createObj !!props)
+    static member inline Ratio ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ratio" "lucide-react", createObj !!props)
+    static member inline ReceiptCent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptCent" "lucide-react", createObj !!props)
+    static member inline ReceiptEuro ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptEuro" "lucide-react", createObj !!props)
+    static member inline ReceiptIndianRupee ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptIndianRupee" "lucide-react", createObj !!props)
+    static member inline ReceiptJapaneseYen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptJapaneseYen" "lucide-react", createObj !!props)
+    static member inline ReceiptPoundSterling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptPoundSterling" "lucide-react", createObj !!props)
+    static member inline ReceiptRussianRuble ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptRussianRuble" "lucide-react", createObj !!props)
+    static member inline ReceiptSwissFranc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptSwissFranc" "lucide-react", createObj !!props)
+    static member inline ReceiptText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReceiptText" "lucide-react", createObj !!props)
+    static member inline Receipt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Receipt" "lucide-react", createObj !!props)
+    static member inline RectangleEllipsis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RectangleEllipsis" "lucide-react", createObj !!props)
+    static member inline RectangleHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RectangleHorizontal" "lucide-react", createObj !!props)
+    static member inline RectangleVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RectangleVertical" "lucide-react", createObj !!props)
+    static member inline Recycle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Recycle" "lucide-react", createObj !!props)
+    static member inline Redo2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Redo2" "lucide-react", createObj !!props)
+    static member inline RedoDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RedoDot" "lucide-react", createObj !!props)
+    static member inline Redo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Redo" "lucide-react", createObj !!props)
+    static member inline RefreshCcwDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RefreshCcwDot" "lucide-react", createObj !!props)
+    static member inline RefreshCcw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RefreshCcw" "lucide-react", createObj !!props)
+    static member inline RefreshCwOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RefreshCwOff" "lucide-react", createObj !!props)
+    static member inline RefreshCw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RefreshCw" "lucide-react", createObj !!props)
+    static member inline Refrigerator ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Refrigerator" "lucide-react", createObj !!props)
+    static member inline Regex ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Regex" "lucide-react", createObj !!props)
+    static member inline RemoveFormatting ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RemoveFormatting" "lucide-react", createObj !!props)
+    static member inline Repeat1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Repeat1" "lucide-react", createObj !!props)
+    static member inline Repeat2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Repeat2" "lucide-react", createObj !!props)
+    static member inline Repeat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Repeat" "lucide-react", createObj !!props)
+    static member inline ReplaceAll ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReplaceAll" "lucide-react", createObj !!props)
+    static member inline Replace ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Replace" "lucide-react", createObj !!props)
+    static member inline ReplyAll ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ReplyAll" "lucide-react", createObj !!props)
+    static member inline Reply ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Reply" "lucide-react", createObj !!props)
+    static member inline Rewind ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rewind" "lucide-react", createObj !!props)
+    static member inline Ribbon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ribbon" "lucide-react", createObj !!props)
+    static member inline Rocket ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rocket" "lucide-react", createObj !!props)
+    static member inline RockingChair ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RockingChair" "lucide-react", createObj !!props)
+    static member inline RollerCoaster ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RollerCoaster" "lucide-react", createObj !!props)
+    static member inline Rotate3d ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rotate3d" "lucide-react", createObj !!props)
+    static member inline RotateCcwSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RotateCcwSquare" "lucide-react", createObj !!props)
+    static member inline RotateCcw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RotateCcw" "lucide-react", createObj !!props)
+    static member inline RotateCwSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RotateCwSquare" "lucide-react", createObj !!props)
+    static member inline RotateCw ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RotateCw" "lucide-react", createObj !!props)
+    static member inline RouteOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RouteOff" "lucide-react", createObj !!props)
+    static member inline Route ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Route" "lucide-react", createObj !!props)
+    static member inline Router ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Router" "lucide-react", createObj !!props)
+    static member inline Rows2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rows2" "lucide-react", createObj !!props)
+    static member inline Rows3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rows3" "lucide-react", createObj !!props)
+    static member inline Rows4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rows4" "lucide-react", createObj !!props)
+    static member inline Rss ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Rss" "lucide-react", createObj !!props)
+    static member inline Ruler ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ruler" "lucide-react", createObj !!props)
+    static member inline RussianRuble ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "RussianRuble" "lucide-react", createObj !!props)
+    static member inline Sailboat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sailboat" "lucide-react", createObj !!props)
+    static member inline Salad ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Salad" "lucide-react", createObj !!props)
+    static member inline Sandwich ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sandwich" "lucide-react", createObj !!props)
+    static member inline SatelliteDish ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SatelliteDish" "lucide-react", createObj !!props)
+    static member inline Satellite ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Satellite" "lucide-react", createObj !!props)
+    static member inline SaveAll ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SaveAll" "lucide-react", createObj !!props)
+    static member inline SaveOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SaveOff" "lucide-react", createObj !!props)
+    static member inline Save ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Save" "lucide-react", createObj !!props)
+    static member inline Scale3d ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scale3d" "lucide-react", createObj !!props)
+    static member inline Scale ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scale" "lucide-react", createObj !!props)
+    static member inline Scaling ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scaling" "lucide-react", createObj !!props)
+    static member inline ScanBarcode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanBarcode" "lucide-react", createObj !!props)
+    static member inline ScanEye ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanEye" "lucide-react", createObj !!props)
+    static member inline ScanFace ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanFace" "lucide-react", createObj !!props)
+    static member inline ScanHeart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanHeart" "lucide-react", createObj !!props)
+    static member inline ScanLine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanLine" "lucide-react", createObj !!props)
+    static member inline ScanQrCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanQrCode" "lucide-react", createObj !!props)
+    static member inline ScanSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanSearch" "lucide-react", createObj !!props)
+    static member inline ScanText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScanText" "lucide-react", createObj !!props)
+    static member inline Scan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scan" "lucide-react", createObj !!props)
+    static member inline School ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "School" "lucide-react", createObj !!props)
+    static member inline ScissorsLineDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScissorsLineDashed" "lucide-react", createObj !!props)
+    static member inline Scissors ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scissors" "lucide-react", createObj !!props)
+    static member inline ScreenShareOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScreenShareOff" "lucide-react", createObj !!props)
+    static member inline ScreenShare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScreenShare" "lucide-react", createObj !!props)
+    static member inline ScrollText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ScrollText" "lucide-react", createObj !!props)
+    static member inline Scroll ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Scroll" "lucide-react", createObj !!props)
+    static member inline SearchCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SearchCheck" "lucide-react", createObj !!props)
+    static member inline SearchCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SearchCode" "lucide-react", createObj !!props)
+    static member inline SearchSlash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SearchSlash" "lucide-react", createObj !!props)
+    static member inline SearchX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SearchX" "lucide-react", createObj !!props)
+    static member inline Search ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Search" "lucide-react", createObj !!props)
+    static member inline Section ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Section" "lucide-react", createObj !!props)
+    static member inline SendHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SendHorizontal" "lucide-react", createObj !!props)
+    static member inline SendToBack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SendToBack" "lucide-react", createObj !!props)
+    static member inline Send ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Send" "lucide-react", createObj !!props)
+    static member inline SeparatorHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SeparatorHorizontal" "lucide-react", createObj !!props)
+    static member inline SeparatorVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SeparatorVertical" "lucide-react", createObj !!props)
+    static member inline ServerCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ServerCog" "lucide-react", createObj !!props)
+    static member inline ServerCrash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ServerCrash" "lucide-react", createObj !!props)
+    static member inline ServerOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ServerOff" "lucide-react", createObj !!props)
+    static member inline Server ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Server" "lucide-react", createObj !!props)
+    static member inline Settings2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Settings2" "lucide-react", createObj !!props)
+    static member inline Settings ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Settings" "lucide-react", createObj !!props)
+    static member inline Shapes ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shapes" "lucide-react", createObj !!props)
+    static member inline Share2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Share2" "lucide-react", createObj !!props)
+    static member inline Share ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Share" "lucide-react", createObj !!props)
+    static member inline Sheet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sheet" "lucide-react", createObj !!props)
+    static member inline Shell ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shell" "lucide-react", createObj !!props)
+    static member inline ShieldAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldAlert" "lucide-react", createObj !!props)
+    static member inline ShieldBan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldBan" "lucide-react", createObj !!props)
+    static member inline ShieldCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldCheck" "lucide-react", createObj !!props)
+    static member inline ShieldEllipsis ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldEllipsis" "lucide-react", createObj !!props)
+    static member inline ShieldHalf ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldHalf" "lucide-react", createObj !!props)
+    static member inline ShieldMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldMinus" "lucide-react", createObj !!props)
+    static member inline ShieldOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldOff" "lucide-react", createObj !!props)
+    static member inline ShieldPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldPlus" "lucide-react", createObj !!props)
+    static member inline ShieldQuestion ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldQuestion" "lucide-react", createObj !!props)
+    static member inline ShieldX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShieldX" "lucide-react", createObj !!props)
+    static member inline Shield ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shield" "lucide-react", createObj !!props)
+    static member inline ShipWheel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShipWheel" "lucide-react", createObj !!props)
+    static member inline Ship ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ship" "lucide-react", createObj !!props)
+    static member inline Shirt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shirt" "lucide-react", createObj !!props)
+    static member inline ShoppingBag ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShoppingBag" "lucide-react", createObj !!props)
+    static member inline ShoppingBasket ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShoppingBasket" "lucide-react", createObj !!props)
+    static member inline ShoppingCart ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShoppingCart" "lucide-react", createObj !!props)
+    static member inline Shovel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shovel" "lucide-react", createObj !!props)
+    static member inline ShowerHead ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ShowerHead" "lucide-react", createObj !!props)
+    static member inline Shrink ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shrink" "lucide-react", createObj !!props)
+    static member inline Shrub ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shrub" "lucide-react", createObj !!props)
+    static member inline Shuffle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Shuffle" "lucide-react", createObj !!props)
+    static member inline Sigma ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sigma" "lucide-react", createObj !!props)
+    static member inline SignalHigh ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SignalHigh" "lucide-react", createObj !!props)
+    static member inline SignalLow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SignalLow" "lucide-react", createObj !!props)
+    static member inline SignalMedium ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SignalMedium" "lucide-react", createObj !!props)
+    static member inline SignalZero ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SignalZero" "lucide-react", createObj !!props)
+    static member inline Signal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Signal" "lucide-react", createObj !!props)
+    static member inline Signature ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Signature" "lucide-react", createObj !!props)
+    static member inline SignpostBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SignpostBig" "lucide-react", createObj !!props)
+    static member inline Signpost ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Signpost" "lucide-react", createObj !!props)
+    static member inline Siren ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Siren" "lucide-react", createObj !!props)
+    static member inline SkipBack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SkipBack" "lucide-react", createObj !!props)
+    static member inline SkipForward ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SkipForward" "lucide-react", createObj !!props)
+    static member inline Skull ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Skull" "lucide-react", createObj !!props)
+    static member inline Slack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Slack" "lucide-react", createObj !!props)
+    static member inline Slash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Slash" "lucide-react", createObj !!props)
+    static member inline Slice ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Slice" "lucide-react", createObj !!props)
+    static member inline SlidersHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SlidersHorizontal" "lucide-react", createObj !!props)
+    static member inline SlidersVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SlidersVertical" "lucide-react", createObj !!props)
+    static member inline SmartphoneCharging ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SmartphoneCharging" "lucide-react", createObj !!props)
+    static member inline SmartphoneNfc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SmartphoneNfc" "lucide-react", createObj !!props)
+    static member inline Smartphone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Smartphone" "lucide-react", createObj !!props)
+    static member inline SmilePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SmilePlus" "lucide-react", createObj !!props)
+    static member inline Smile ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Smile" "lucide-react", createObj !!props)
+    static member inline Snail ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Snail" "lucide-react", createObj !!props)
+    static member inline Snowflake ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Snowflake" "lucide-react", createObj !!props)
+    static member inline Sofa ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sofa" "lucide-react", createObj !!props)
+    static member inline Soup ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Soup" "lucide-react", createObj !!props)
+    static member inline Space ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Space" "lucide-react", createObj !!props)
+    static member inline Spade ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Spade" "lucide-react", createObj !!props)
+    static member inline Sparkle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sparkle" "lucide-react", createObj !!props)
+    static member inline Sparkles ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sparkles" "lucide-react", createObj !!props)
+    static member inline Speaker ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Speaker" "lucide-react", createObj !!props)
+    static member inline Speech ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Speech" "lucide-react", createObj !!props)
+    static member inline SpellCheck2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SpellCheck2" "lucide-react", createObj !!props)
+    static member inline SpellCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SpellCheck" "lucide-react", createObj !!props)
+    static member inline Spline ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Spline" "lucide-react", createObj !!props)
+    static member inline Split ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Split" "lucide-react", createObj !!props)
+    static member inline SprayCan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SprayCan" "lucide-react", createObj !!props)
+    static member inline Sprout ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sprout" "lucide-react", createObj !!props)
+    static member inline SquareActivity ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareActivity" "lucide-react", createObj !!props)
+    static member inline SquareArrowDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowDownLeft" "lucide-react", createObj !!props)
+    static member inline SquareArrowDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowDownRight" "lucide-react", createObj !!props)
+    static member inline SquareArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowDown" "lucide-react", createObj !!props)
+    static member inline SquareArrowLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowLeft" "lucide-react", createObj !!props)
+    static member inline SquareArrowOutDownLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowOutDownLeft" "lucide-react", createObj !!props)
+    static member inline SquareArrowOutDownRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowOutDownRight" "lucide-react", createObj !!props)
+    static member inline SquareArrowOutUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowOutUpLeft" "lucide-react", createObj !!props)
+    static member inline SquareArrowOutUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowOutUpRight" "lucide-react", createObj !!props)
+    static member inline SquareArrowRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowRight" "lucide-react", createObj !!props)
+    static member inline SquareArrowUpLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowUpLeft" "lucide-react", createObj !!props)
+    static member inline SquareArrowUpRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowUpRight" "lucide-react", createObj !!props)
+    static member inline SquareArrowUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareArrowUp" "lucide-react", createObj !!props)
+    static member inline SquareAsterisk ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareAsterisk" "lucide-react", createObj !!props)
+    static member inline SquareBottomDashedScissors ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareBottomDashedScissors" "lucide-react", createObj !!props)
+    static member inline SquareChartGantt ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareChartGantt" "lucide-react", createObj !!props)
+    static member inline SquareCheckBig ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareCheckBig" "lucide-react", createObj !!props)
+    static member inline SquareCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareCheck" "lucide-react", createObj !!props)
+    static member inline SquareChevronDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareChevronDown" "lucide-react", createObj !!props)
+    static member inline SquareChevronLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareChevronLeft" "lucide-react", createObj !!props)
+    static member inline SquareChevronRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareChevronRight" "lucide-react", createObj !!props)
+    static member inline SquareChevronUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareChevronUp" "lucide-react", createObj !!props)
+    static member inline SquareCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareCode" "lucide-react", createObj !!props)
+    static member inline SquareDashedBottomCode ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDashedBottomCode" "lucide-react", createObj !!props)
+    static member inline SquareDashedBottom ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDashedBottom" "lucide-react", createObj !!props)
+    static member inline SquareDashedKanban ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDashedKanban" "lucide-react", createObj !!props)
+    static member inline SquareDashedMousePointer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDashedMousePointer" "lucide-react", createObj !!props)
+    static member inline SquareDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDashed" "lucide-react", createObj !!props)
+    static member inline SquareDivide ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDivide" "lucide-react", createObj !!props)
+    static member inline SquareDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareDot" "lucide-react", createObj !!props)
+    static member inline SquareEqual ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareEqual" "lucide-react", createObj !!props)
+    static member inline SquareFunction ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareFunction" "lucide-react", createObj !!props)
+    static member inline SquareKanban ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareKanban" "lucide-react", createObj !!props)
+    static member inline SquareLibrary ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareLibrary" "lucide-react", createObj !!props)
+    static member inline SquareM ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareM" "lucide-react", createObj !!props)
+    static member inline SquareMenu ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareMenu" "lucide-react", createObj !!props)
+    static member inline SquareMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareMinus" "lucide-react", createObj !!props)
+    static member inline SquareMousePointer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareMousePointer" "lucide-react", createObj !!props)
+    static member inline SquareParkingOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareParkingOff" "lucide-react", createObj !!props)
+    static member inline SquareParking ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareParking" "lucide-react", createObj !!props)
+    static member inline SquarePen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePen" "lucide-react", createObj !!props)
+    static member inline SquarePercent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePercent" "lucide-react", createObj !!props)
+    static member inline SquarePi ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePi" "lucide-react", createObj !!props)
+    static member inline SquarePilcrow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePilcrow" "lucide-react", createObj !!props)
+    static member inline SquarePlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePlay" "lucide-react", createObj !!props)
+    static member inline SquarePlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePlus" "lucide-react", createObj !!props)
+    static member inline SquarePower ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquarePower" "lucide-react", createObj !!props)
+    static member inline SquareRadical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareRadical" "lucide-react", createObj !!props)
+    static member inline SquareScissors ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareScissors" "lucide-react", createObj !!props)
+    static member inline SquareSigma ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareSigma" "lucide-react", createObj !!props)
+    static member inline SquareSlash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareSlash" "lucide-react", createObj !!props)
+    static member inline SquareSplitHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareSplitHorizontal" "lucide-react", createObj !!props)
+    static member inline SquareSplitVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareSplitVertical" "lucide-react", createObj !!props)
+    static member inline SquareSquare ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareSquare" "lucide-react", createObj !!props)
+    static member inline SquareStack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareStack" "lucide-react", createObj !!props)
+    static member inline SquareTerminal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareTerminal" "lucide-react", createObj !!props)
+    static member inline SquareUserRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareUserRound" "lucide-react", createObj !!props)
+    static member inline SquareUser ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareUser" "lucide-react", createObj !!props)
+    static member inline SquareX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SquareX" "lucide-react", createObj !!props)
+    static member inline Square ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Square" "lucide-react", createObj !!props)
+    static member inline Squircle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Squircle" "lucide-react", createObj !!props)
+    static member inline Squirrel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Squirrel" "lucide-react", createObj !!props)
+    static member inline Stamp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Stamp" "lucide-react", createObj !!props)
+    static member inline StarHalf ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StarHalf" "lucide-react", createObj !!props)
+    static member inline StarOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StarOff" "lucide-react", createObj !!props)
+    static member inline Star ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Star" "lucide-react", createObj !!props)
+    static member inline StepBack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StepBack" "lucide-react", createObj !!props)
+    static member inline StepForward ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StepForward" "lucide-react", createObj !!props)
+    static member inline Stethoscope ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Stethoscope" "lucide-react", createObj !!props)
+    static member inline Sticker ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sticker" "lucide-react", createObj !!props)
+    static member inline StickyNote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StickyNote" "lucide-react", createObj !!props)
+    static member inline Store ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Store" "lucide-react", createObj !!props)
+    static member inline StretchHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StretchHorizontal" "lucide-react", createObj !!props)
+    static member inline StretchVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "StretchVertical" "lucide-react", createObj !!props)
+    static member inline Strikethrough ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Strikethrough" "lucide-react", createObj !!props)
+    static member inline Subscript ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Subscript" "lucide-react", createObj !!props)
+    static member inline SunDim ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SunDim" "lucide-react", createObj !!props)
+    static member inline SunMedium ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SunMedium" "lucide-react", createObj !!props)
+    static member inline SunMoon ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SunMoon" "lucide-react", createObj !!props)
+    static member inline SunSnow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SunSnow" "lucide-react", createObj !!props)
+    static member inline Sun ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sun" "lucide-react", createObj !!props)
+    static member inline Sunrise ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sunrise" "lucide-react", createObj !!props)
+    static member inline Sunset ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sunset" "lucide-react", createObj !!props)
+    static member inline Superscript ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Superscript" "lucide-react", createObj !!props)
+    static member inline SwatchBook ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SwatchBook" "lucide-react", createObj !!props)
+    static member inline SwissFranc ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SwissFranc" "lucide-react", createObj !!props)
+    static member inline SwitchCamera ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "SwitchCamera" "lucide-react", createObj !!props)
+    static member inline Sword ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Sword" "lucide-react", createObj !!props)
+    static member inline Swords ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Swords" "lucide-react", createObj !!props)
+    static member inline Syringe ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Syringe" "lucide-react", createObj !!props)
+    static member inline Table2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Table2" "lucide-react", createObj !!props)
+    static member inline TableCellsMerge ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableCellsMerge" "lucide-react", createObj !!props)
+    static member inline TableCellsSplit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableCellsSplit" "lucide-react", createObj !!props)
+    static member inline TableColumnsSplit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableColumnsSplit" "lucide-react", createObj !!props)
+    static member inline TableOfContents ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableOfContents" "lucide-react", createObj !!props)
+    static member inline TableProperties ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableProperties" "lucide-react", createObj !!props)
+    static member inline TableRowsSplit ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TableRowsSplit" "lucide-react", createObj !!props)
+    static member inline Table ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Table" "lucide-react", createObj !!props)
+    static member inline TabletSmartphone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TabletSmartphone" "lucide-react", createObj !!props)
+    static member inline Tablet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tablet" "lucide-react", createObj !!props)
+    static member inline Tablets ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tablets" "lucide-react", createObj !!props)
+    static member inline Tag ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tag" "lucide-react", createObj !!props)
+    static member inline Tags ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tags" "lucide-react", createObj !!props)
+    static member inline Tally1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tally1" "lucide-react", createObj !!props)
+    static member inline Tally2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tally2" "lucide-react", createObj !!props)
+    static member inline Tally3 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tally3" "lucide-react", createObj !!props)
+    static member inline Tally4 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tally4" "lucide-react", createObj !!props)
+    static member inline Tally5 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tally5" "lucide-react", createObj !!props)
+    static member inline Tangent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tangent" "lucide-react", createObj !!props)
+    static member inline Target ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Target" "lucide-react", createObj !!props)
+    static member inline Telescope ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Telescope" "lucide-react", createObj !!props)
+    static member inline TentTree ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TentTree" "lucide-react", createObj !!props)
+    static member inline Tent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tent" "lucide-react", createObj !!props)
+    static member inline Terminal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Terminal" "lucide-react", createObj !!props)
+    static member inline TestTubeDiagonal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TestTubeDiagonal" "lucide-react", createObj !!props)
+    static member inline TestTube ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TestTube" "lucide-react", createObj !!props)
+    static member inline TestTubes ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TestTubes" "lucide-react", createObj !!props)
+    static member inline TextCursorInput ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TextCursorInput" "lucide-react", createObj !!props)
+    static member inline TextCursor ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TextCursor" "lucide-react", createObj !!props)
+    static member inline TextQuote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TextQuote" "lucide-react", createObj !!props)
+    static member inline TextSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TextSearch" "lucide-react", createObj !!props)
+    static member inline TextSelect ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TextSelect" "lucide-react", createObj !!props)
+    static member inline Text ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Text" "lucide-react", createObj !!props)
+    static member inline Theater ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Theater" "lucide-react", createObj !!props)
+    static member inline ThermometerSnowflake ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ThermometerSnowflake" "lucide-react", createObj !!props)
+    static member inline ThermometerSun ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ThermometerSun" "lucide-react", createObj !!props)
+    static member inline Thermometer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Thermometer" "lucide-react", createObj !!props)
+    static member inline ThumbsDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ThumbsDown" "lucide-react", createObj !!props)
+    static member inline ThumbsUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ThumbsUp" "lucide-react", createObj !!props)
+    static member inline TicketCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketCheck" "lucide-react", createObj !!props)
+    static member inline TicketMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketMinus" "lucide-react", createObj !!props)
+    static member inline TicketPercent ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketPercent" "lucide-react", createObj !!props)
+    static member inline TicketPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketPlus" "lucide-react", createObj !!props)
+    static member inline TicketSlash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketSlash" "lucide-react", createObj !!props)
+    static member inline TicketX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketX" "lucide-react", createObj !!props)
+    static member inline Ticket ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ticket" "lucide-react", createObj !!props)
+    static member inline TicketsPlane ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TicketsPlane" "lucide-react", createObj !!props)
+    static member inline Tickets ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tickets" "lucide-react", createObj !!props)
+    static member inline TimerOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TimerOff" "lucide-react", createObj !!props)
+    static member inline TimerReset ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TimerReset" "lucide-react", createObj !!props)
+    static member inline Timer ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Timer" "lucide-react", createObj !!props)
+    static member inline ToggleLeft ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ToggleLeft" "lucide-react", createObj !!props)
+    static member inline ToggleRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ToggleRight" "lucide-react", createObj !!props)
+    static member inline Toilet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Toilet" "lucide-react", createObj !!props)
+    static member inline Tornado ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tornado" "lucide-react", createObj !!props)
+    static member inline Torus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Torus" "lucide-react", createObj !!props)
+    static member inline TouchpadOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TouchpadOff" "lucide-react", createObj !!props)
+    static member inline Touchpad ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Touchpad" "lucide-react", createObj !!props)
+    static member inline TowerControl ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TowerControl" "lucide-react", createObj !!props)
+    static member inline ToyBrick ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ToyBrick" "lucide-react", createObj !!props)
+    static member inline Tractor ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tractor" "lucide-react", createObj !!props)
+    static member inline TrafficCone ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrafficCone" "lucide-react", createObj !!props)
+    static member inline TrainFrontTunnel ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrainFrontTunnel" "lucide-react", createObj !!props)
+    static member inline TrainFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrainFront" "lucide-react", createObj !!props)
+    static member inline TrainTrack ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrainTrack" "lucide-react", createObj !!props)
+    static member inline TramFront ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TramFront" "lucide-react", createObj !!props)
+    static member inline Trash2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Trash2" "lucide-react", createObj !!props)
+    static member inline Trash ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Trash" "lucide-react", createObj !!props)
+    static member inline TreeDeciduous ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TreeDeciduous" "lucide-react", createObj !!props)
+    static member inline TreePalm ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TreePalm" "lucide-react", createObj !!props)
+    static member inline TreePine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TreePine" "lucide-react", createObj !!props)
+    static member inline Trees ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Trees" "lucide-react", createObj !!props)
+    static member inline Trello ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Trello" "lucide-react", createObj !!props)
+    static member inline TrendingDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrendingDown" "lucide-react", createObj !!props)
+    static member inline TrendingUpDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrendingUpDown" "lucide-react", createObj !!props)
+    static member inline TrendingUp ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TrendingUp" "lucide-react", createObj !!props)
+    static member inline TriangleAlert ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TriangleAlert" "lucide-react", createObj !!props)
+    static member inline TriangleDashed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TriangleDashed" "lucide-react", createObj !!props)
+    static member inline TriangleRight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TriangleRight" "lucide-react", createObj !!props)
+    static member inline Triangle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Triangle" "lucide-react", createObj !!props)
+    static member inline Trophy ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Trophy" "lucide-react", createObj !!props)
+    static member inline Truck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Truck" "lucide-react", createObj !!props)
+    static member inline Turtle ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Turtle" "lucide-react", createObj !!props)
+    static member inline TvMinimalPlay ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TvMinimalPlay" "lucide-react", createObj !!props)
+    static member inline TvMinimal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TvMinimal" "lucide-react", createObj !!props)
+    static member inline Tv ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Tv" "lucide-react", createObj !!props)
+    static member inline Twitch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Twitch" "lucide-react", createObj !!props)
+    static member inline Twitter ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Twitter" "lucide-react", createObj !!props)
+    static member inline TypeOutline ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "TypeOutline" "lucide-react", createObj !!props)
+    static member inline Type ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Type" "lucide-react", createObj !!props)
+    static member inline UmbrellaOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UmbrellaOff" "lucide-react", createObj !!props)
+    static member inline Umbrella ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Umbrella" "lucide-react", createObj !!props)
+    static member inline Underline ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Underline" "lucide-react", createObj !!props)
+    static member inline Undo2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Undo2" "lucide-react", createObj !!props)
+    static member inline UndoDot ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UndoDot" "lucide-react", createObj !!props)
+    static member inline Undo ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Undo" "lucide-react", createObj !!props)
+    static member inline UnfoldHorizontal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UnfoldHorizontal" "lucide-react", createObj !!props)
+    static member inline UnfoldVertical ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UnfoldVertical" "lucide-react", createObj !!props)
+    static member inline Ungroup ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Ungroup" "lucide-react", createObj !!props)
+    static member inline University ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "University" "lucide-react", createObj !!props)
+    static member inline Unlink2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Unlink2" "lucide-react", createObj !!props)
+    static member inline Unlink ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Unlink" "lucide-react", createObj !!props)
+    static member inline Unplug ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Unplug" "lucide-react", createObj !!props)
+    static member inline Upload ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Upload" "lucide-react", createObj !!props)
+    static member inline Usb ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Usb" "lucide-react", createObj !!props)
+    static member inline UserCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserCheck" "lucide-react", createObj !!props)
+    static member inline UserCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserCog" "lucide-react", createObj !!props)
+    static member inline UserMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserMinus" "lucide-react", createObj !!props)
+    static member inline UserPen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserPen" "lucide-react", createObj !!props)
+    static member inline UserPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserPlus" "lucide-react", createObj !!props)
+    static member inline UserRoundCheck ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundCheck" "lucide-react", createObj !!props)
+    static member inline UserRoundCog ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundCog" "lucide-react", createObj !!props)
+    static member inline UserRoundMinus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundMinus" "lucide-react", createObj !!props)
+    static member inline UserRoundPen ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundPen" "lucide-react", createObj !!props)
+    static member inline UserRoundPlus ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundPlus" "lucide-react", createObj !!props)
+    static member inline UserRoundSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundSearch" "lucide-react", createObj !!props)
+    static member inline UserRoundX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRoundX" "lucide-react", createObj !!props)
+    static member inline UserRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserRound" "lucide-react", createObj !!props)
+    static member inline UserSearch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserSearch" "lucide-react", createObj !!props)
+    static member inline UserX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UserX" "lucide-react", createObj !!props)
+    static member inline User ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "User" "lucide-react", createObj !!props)
+    static member inline UsersRound ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UsersRound" "lucide-react", createObj !!props)
+    static member inline Users ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Users" "lucide-react", createObj !!props)
+    static member inline UtensilsCrossed ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UtensilsCrossed" "lucide-react", createObj !!props)
+    static member inline Utensils ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Utensils" "lucide-react", createObj !!props)
+    static member inline UtilityPole ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "UtilityPole" "lucide-react", createObj !!props)
+    static member inline Variable ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Variable" "lucide-react", createObj !!props)
+    static member inline Vault ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Vault" "lucide-react", createObj !!props)
+    static member inline Vegan ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Vegan" "lucide-react", createObj !!props)
+    static member inline VenetianMask ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "VenetianMask" "lucide-react", createObj !!props)
+    static member inline VibrateOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "VibrateOff" "lucide-react", createObj !!props)
+    static member inline Vibrate ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Vibrate" "lucide-react", createObj !!props)
+    static member inline VideoOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "VideoOff" "lucide-react", createObj !!props)
+    static member inline Video ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Video" "lucide-react", createObj !!props)
+    static member inline Videotape ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Videotape" "lucide-react", createObj !!props)
+    static member inline View ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "View" "lucide-react", createObj !!props)
+    static member inline Voicemail ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Voicemail" "lucide-react", createObj !!props)
+    static member inline Volleyball ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Volleyball" "lucide-react", createObj !!props)
+    static member inline Volume1 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Volume1" "lucide-react", createObj !!props)
+    static member inline Volume2 ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Volume2" "lucide-react", createObj !!props)
+    static member inline VolumeOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "VolumeOff" "lucide-react", createObj !!props)
+    static member inline VolumeX ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "VolumeX" "lucide-react", createObj !!props)
+    static member inline Volume ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Volume" "lucide-react", createObj !!props)
+    static member inline Vote ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Vote" "lucide-react", createObj !!props)
+    static member inline WalletCards ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WalletCards" "lucide-react", createObj !!props)
+    static member inline WalletMinimal ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WalletMinimal" "lucide-react", createObj !!props)
+    static member inline Wallet ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wallet" "lucide-react", createObj !!props)
+    static member inline Wallpaper ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wallpaper" "lucide-react", createObj !!props)
+    static member inline WandSparkles ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WandSparkles" "lucide-react", createObj !!props)
+    static member inline Wand ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wand" "lucide-react", createObj !!props)
+    static member inline Warehouse ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Warehouse" "lucide-react", createObj !!props)
+    static member inline WashingMachine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WashingMachine" "lucide-react", createObj !!props)
+    static member inline Watch ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Watch" "lucide-react", createObj !!props)
+    static member inline WavesLadder ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WavesLadder" "lucide-react", createObj !!props)
+    static member inline Waves ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Waves" "lucide-react", createObj !!props)
+    static member inline Waypoints ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Waypoints" "lucide-react", createObj !!props)
+    static member inline Webcam ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Webcam" "lucide-react", createObj !!props)
+    static member inline WebhookOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WebhookOff" "lucide-react", createObj !!props)
+    static member inline Webhook ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Webhook" "lucide-react", createObj !!props)
+    static member inline Weight ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Weight" "lucide-react", createObj !!props)
+    static member inline WheatOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WheatOff" "lucide-react", createObj !!props)
+    static member inline Wheat ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wheat" "lucide-react", createObj !!props)
+    static member inline WholeWord ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WholeWord" "lucide-react", createObj !!props)
+    static member inline WifiHigh ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WifiHigh" "lucide-react", createObj !!props)
+    static member inline WifiLow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WifiLow" "lucide-react", createObj !!props)
+    static member inline WifiOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WifiOff" "lucide-react", createObj !!props)
+    static member inline WifiZero ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WifiZero" "lucide-react", createObj !!props)
+    static member inline Wifi ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wifi" "lucide-react", createObj !!props)
+    static member inline WindArrowDown ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WindArrowDown" "lucide-react", createObj !!props)
+    static member inline Wind ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wind" "lucide-react", createObj !!props)
+    static member inline WineOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WineOff" "lucide-react", createObj !!props)
+    static member inline Wine ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wine" "lucide-react", createObj !!props)
+    static member inline Workflow ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Workflow" "lucide-react", createObj !!props)
+    static member inline Worm ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Worm" "lucide-react", createObj !!props)
+    static member inline WrapText ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "WrapText" "lucide-react", createObj !!props)
+    static member inline Wrench ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Wrench" "lucide-react", createObj !!props)
+    static member inline X ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "X" "lucide-react", createObj !!props)
+    static member inline Youtube ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Youtube" "lucide-react", createObj !!props)
+    static member inline ZapOff ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ZapOff" "lucide-react", createObj !!props)
+    static member inline Zap ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "Zap" "lucide-react", createObj !!props)
+    static member inline ZoomIn ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ZoomIn" "lucide-react", createObj !!props)
+    static member inline ZoomOut ( props : #ISvgAttribute list ) = Interop.reactApi.createElement(import "ZoomOut" "lucide-react", createObj !!props)
